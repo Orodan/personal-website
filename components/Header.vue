@@ -5,9 +5,21 @@
     <section class="titles">
       <h1>Jimmy Kasprzak</h1>
       <h2>Developer - trainer</h2>
+      <Menu />
     </section>
+
   </header>
 </template>
+
+<script>
+import Menu from "~/components/Menu.vue";
+
+export default {
+  components: {
+    Menu
+  }
+};
+</script>
 
 <style scoped>
 header {
