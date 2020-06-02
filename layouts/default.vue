@@ -18,6 +18,10 @@ html {
   color: #2E495E;
 }
 
+body {
+  background-color: #eee;
+}
+
 *,
 *:before,
 *:after {
@@ -28,6 +32,9 @@ html {
 .container {
   min-height: 100vh;
   display: flex;
+  justify-content: center;
+  max-width: 1390px;
+  margin: 0 auto;
 }
 
 .button--green {
