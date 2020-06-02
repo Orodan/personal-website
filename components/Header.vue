@@ -1,0 +1,49 @@
+<template>
+  <header>
+    <img src="~/assets/tiny-rick.jpg" alt="profile picture">
+
+    <section class="titles">
+      <h1>Jimmy Kasprzak</h1>
+      <h2>Developer - trainer</h2>
+    </section>
+  </header>
+</template>
+
+<style scoped>
+header {
+  flex: 1;
+  display: flex;
+  color: #eeeeee;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 18px;
+  height: 100px;
+  line-height: 100px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 26px;
+  background-color: #484848;
+}
+
+h2 {
+  font-size: 24px;
+  background-color: #212121;
+}
+</style>
