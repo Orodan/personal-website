@@ -66,9 +66,4 @@ p {
 .orange { background-color: #fb8c00; }
 .red { background-color: #e53935; }
 .yellow { background-color: #fbc02d; }
-
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
 </style>
