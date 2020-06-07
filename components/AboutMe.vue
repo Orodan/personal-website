@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="about-me">
     <h2>About me</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui saepe rem temporibus facere laudantium commodi voluptates mollitia reprehenderit nisi autem? Exercitationem optio architecto assumenda cum consequuntur praesentium rem atque itaque.</p>
 
@@ -32,6 +32,10 @@
 </template>
 
 <style scoped>
+.about-me {
+  background-color: #fff;
+}
+
 .qualities {
   display: flex;
 }

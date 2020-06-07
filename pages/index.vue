@@ -1,11 +1,11 @@
 <template>
-  <section>
+  <section class="index-page">
     <Header />
     <section class="row-2-1">
-      <AboutMe class="about-me" />
-      <div class="personal-info">
+      <AboutMe />
+      <section class="personal-info">
         Personal Info incoming
-      </div>
+      </section>
     </section>
   </section>
 </template>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
-section {
+.index-page {
   flex: 1;
 }
 
@@ -31,11 +31,11 @@ section {
   display: flex;
 }
 
-.about-me {
+.row-2-1 > *:first-child {
   flex: 2;
 }
 
-.personal-info {
+.row-2-1 > *:nth-child(2) {
   flex: 1;
 }
 </style>
