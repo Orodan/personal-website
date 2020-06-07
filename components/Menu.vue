@@ -60,10 +60,10 @@ p {
   bottom: 10px;
 }
 
-.green { background-color: #43a047; }
-.blue { background-color: #039be5; }
+.green { background-color: var(--green); }
+.blue { background-color: var(--blue); }
 .purple { background-color: #8e24aa; }
 .orange { background-color: #fb8c00; }
-.red { background-color: #e53935; }
-.yellow { background-color: #fbc02d; }
+.red { background-color: var(--red); }
+.yellow { background-color: var(--yellow); }
 </style>

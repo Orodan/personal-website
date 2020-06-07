@@ -1,3 +1,10 @@
+:root {
+  --green: #43a047;
+  --yellow: #fbc02d;
+  --red: #e53935;
+  --blue: #039be5;
+}
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }

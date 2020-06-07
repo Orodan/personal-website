@@ -42,7 +42,7 @@ img {
 h1,
 h2 {
   margin: 0;
-  padding: 0 20px;
+  padding: 0 40px;
   font-size: 18px;
   height: 100px;
   line-height: 100px;
