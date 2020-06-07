@@ -43,6 +43,11 @@ nav > div {
   position: relative;
   display: flex;
   justify-content: center;
+  cursor: pointer;
+}
+
+nav > div:hover {
+  opacity: .7;
 }
 
 i {
