@@ -3,9 +3,7 @@
     <Header />
     <section class="row-2-1">
       <AboutMe />
-      <section class="personal-info">
-        Personal Info incoming
-      </section>
+      <PersonalInfo />
     </section>
   </section>
 </template>
@@ -13,11 +11,13 @@
 <script>
 import Header from "~/components/Header.vue";
 import AboutMe from "~/components/AboutMe.vue";
+import PersonalInfo from "~/components/PersonalInfo.vue";
 
 export default {
   components: {
     Header,
-    AboutMe
+    AboutMe,
+    PersonalInfo
   }
 };
 </script>
