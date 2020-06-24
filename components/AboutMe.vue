@@ -32,22 +32,6 @@
 </template>
 
 <style scoped>
-.green {
-  color: var(--green);
-}
-
-.yellow {
-  color: var(--yellow);
-}
-
-.red {
-  color: var(--red);
-}
-
-.blue {
-  color: var(--blue)
-}
-
 .about-me {
   background-color: #fff;
   padding: 40px;

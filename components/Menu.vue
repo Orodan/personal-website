@@ -1,31 +1,31 @@
 <template>
   <nav>
-    <div class="green">
+    <div class="bg-green">
       <i class="material-icons md-48">home</i>
       <p>Home</p>
     </div>
 
-    <div class="blue">
+    <div class="bg-blue">
       <i class="material-icons md-48">emoji_emotions</i>
       <p>About me</p>
     </div>
 
-    <div class="purple">
+    <div class="bg-purple">
       <i class="material-icons md-48">work</i>
       <p>Work</p>
     </div>
 
-    <div class="orange">
+    <div class="bg-orange">
       <i class="material-icons md-48">star</i>
       <p>Skills</p>
     </div>
 
-    <div class="red">
+    <div class="bg-red">
       <i class="material-icons md-48">share</i>
       <p>Contact</p>
     </div>
 
-    <div class="yellow">
+    <div class="bg-yellow">
       <i class="material-icons md-48">more</i>
       <p>More</p>
     </div>
@@ -60,10 +60,4 @@ p {
   bottom: 10px;
 }
 
-.green { background-color: var(--green); }
-.blue { background-color: var(--blue); }
-.purple { background-color: #8e24aa; }
-.orange { background-color: #fb8c00; }
-.red { background-color: var(--red); }
-.yellow { background-color: var(--yellow); }
 </style>
