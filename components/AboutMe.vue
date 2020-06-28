@@ -1,14 +1,14 @@
 <template>
   <section class="about-me">
     <h2 class="blue">About me</h2>
-    <p>Here is the section where I sell how many qualities I have. As much as I "love" talking about myself, here is some stuff I consider relevant to know about me.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta, dolor, maxime sit necessitatibus facere possimus distinctio atque eos quidem doloremque iure.</p>
 
     <div class="qualities">
       <div class="quality">
         <i class="material-icons md-36 yellow">spa</i>
         <div class="quality-content">
           <h3 class="yellow">Curious</h3>
-          <p>I'm a very curious person in everything I do, work included. I like to understand the "how" and "why". It also means I need to have challenges and discover new stuff.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et tempore non, sit id minima veniam! Quasi, commodi impedit necessitatibus</p>
         </div>
       </div>
 
@@ -16,7 +16,7 @@
         <i class="material-icons md-36 green">favorite</i>
         <div class="quality-content">
           <h3 class="green">Passionate</h3>
-          <p>What I do for work is not only a way to get a paycheck. I love being a developer and a trainer and I'm proud of it. It is a passion in which I invest many hours into.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, qui eos illo ipsum cumque nemo temporibus quibusdam laborum possimus</p>
         </div>
       </div>
 
@@ -24,7 +24,7 @@
         <i class="material-icons md-36 red">camera</i>
         <div class="quality-content">
           <h3 class="red">Meticulous</h3>
-          <p>I'm a meticulous person in every aspects of my work. Software quality is not something I consider an option. Every time I'm engage in a project I try my best to make sure the work is done but also done in a right way.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat perferendis molestias a dolor dicta accusantium eum, eius tenetur</p>
         </div>
       </div>
     </div>
