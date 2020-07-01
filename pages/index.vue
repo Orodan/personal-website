@@ -5,6 +5,11 @@
       <AboutMe />
       <PersonalInfo />
     </section>
+
+    <section class="row-1-2">
+      <ProfessionalExperiences />
+      <section>Skills section coming</section>
+    </section>
   </section>
 </template>
 
@@ -12,12 +17,14 @@
 import Header from "~/components/Header.vue";
 import AboutMe from "~/components/AboutMe.vue";
 import PersonalInfo from "~/components/PersonalInfo.vue";
+import ProfessionalExperiences from "~/components/ProfessionalExperiences.vue";
 
 export default {
   components: {
     Header,
     AboutMe,
-    PersonalInfo
+    PersonalInfo,
+    ProfessionalExperiences
   }
 };
 </script>
@@ -25,6 +32,18 @@ export default {
 <style scoped>
 .index-page {
   flex: 1;
+}
+
+.row-1-2 {
+  display: flex;
+}
+
+.row-1-2 > *:first-child {
+  flex: 1;
+}
+
+.row-1-2 > *:nth-child(2) {
+  flex: 2;
 }
 
 .row-2-1 {
