@@ -8,7 +8,7 @@
 
     <section class="row-1-2">
       <ProfessionalExperiences />
-      <section>Skills section coming</section>
+      <Skills />
     </section>
   </section>
 </template>
@@ -18,13 +18,15 @@ import Header from "~/components/Header.vue";
 import AboutMe from "~/components/AboutMe.vue";
 import PersonalInfo from "~/components/PersonalInfo.vue";
 import ProfessionalExperiences from "~/components/ProfessionalExperiences.vue";
+import Skills from "~/components/Skills.vue";
 
 export default {
   components: {
     Header,
     AboutMe,
     PersonalInfo,
-    ProfessionalExperiences
+    ProfessionalExperiences,
+    Skills
   }
 };
 </script>
