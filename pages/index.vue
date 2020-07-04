@@ -10,6 +10,8 @@
       <ProfessionalExperiences />
       <Skills />
     </section>
+
+    <Footer />
   </section>
 </template>
 
@@ -19,6 +21,7 @@ import AboutMe from "~/components/AboutMe.vue";
 import PersonalInfo from "~/components/PersonalInfo.vue";
 import ProfessionalExperiences from "~/components/ProfessionalExperiences.vue";
 import Skills from "~/components/Skills.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
@@ -26,7 +29,8 @@ export default {
     AboutMe,
     PersonalInfo,
     ProfessionalExperiences,
-    Skills
+    Skills,
+    Footer
   }
 };
 </script>
