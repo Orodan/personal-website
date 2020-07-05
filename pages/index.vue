@@ -1,6 +1,13 @@
 <template>
   <section class="index-page">
     <Header />
+
+    <section class="self-intro">
+      Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
+      <br/>
+      I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
+    </section>
+
     <section class="row-2-1">
       <AboutMe />
       <PersonalInfo />
@@ -36,6 +43,13 @@ export default {
 </script>
 
 <style scoped>
+.test {
+  padding: 60px 40px;
+  color: #fff;
+  font-size: 26px;
+  background-color: var(--green);
+}
+
 .index-page {
   flex: 1;
 }
