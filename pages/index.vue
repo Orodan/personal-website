@@ -43,7 +43,7 @@ export default {
 </script>
 
 <style scoped>
-.test {
+.self-intro {
   padding: 60px 40px;
   color: #fff;
   font-size: 26px;
