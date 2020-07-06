@@ -35,7 +35,6 @@ body {
   justify-content: center;
   max-width: 1390px;
   margin: 0 auto;
-  padding: 20px 0;
 }
 
 .button--green {
