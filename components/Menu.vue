@@ -1,34 +1,34 @@
 <template>
   <nav>
-    <div class="bg-green">
+    <nuxt-link to="/" class="bg-green">
       <i class="material-icons md-48">home</i>
       <p>Home</p>
-    </div>
+    </nuxt-link>
 
-    <div class="bg-blue">
+    <nuxt-link to="/about-me" class="bg-blue">
       <i class="material-icons md-48">emoji_emotions</i>
       <p>About me</p>
-    </div>
+    </nuxt-link>
 
-    <div class="bg-purple">
+    <nuxt-link to="/work" class="bg-purple">
       <i class="material-icons md-48">work</i>
       <p>Work</p>
-    </div>
+    </nuxt-link>
 
-    <div class="bg-orange">
+    <nuxt-link to="/skills" class="bg-orange">
       <i class="material-icons md-48">star</i>
       <p>Skills</p>
-    </div>
+    </nuxt-link>
 
-    <div class="bg-red">
+    <nuxt-link to="/contact" class="bg-red">
       <i class="material-icons md-48">share</i>
       <p>Contact</p>
-    </div>
+    </nuxt-link>
 
-    <div class="bg-yellow">
+    <nuxt-link to="/more" class="bg-yellow">
       <i class="material-icons md-48">more</i>
       <p>More</p>
-    </div>
+    </nuxt-link>
   </nav>
 </template>
 
@@ -37,16 +37,17 @@ nav {
   display: flex;
 }
 
-nav > div {
+nav > * {
+  user-select: none;
   flex: 1;
   height: 100px;
   position: relative;
   display: flex;
   justify-content: center;
-  cursor: pointer;
+  color: #eee;
 }
 
-nav > div:hover {
+nav > *:hover {
   opacity: .7;
 }
 
