@@ -7,6 +7,36 @@
       <br/>
       I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
     </section>
+
+    <section class="story">
+      <div class="story-picture">
+        <img src="~/assets/la-rochelle.jpg" alt="la rochelle picture">
+      </div>
+
+      <div class="story-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="story-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
+      </div>
+
+      <div class="story-picture">
+        <img src="~/assets/paris.jpeg" alt="paris picture">
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="story-picture">
+        <img src="~/assets/nantes.jpg" alt="nantes picture">
+      </div>
+
+      <div class="story-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
+      </div>
+    </section>
   </section>
 </template>
 
@@ -16,6 +46,25 @@
   color: #fff;
   font-size: 26px;
   background-color: var(--blue);
+}
+
+.story {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.story-content {
+  display: flex;
+  padding: 40px;
+  background-color: #fff;
+  color: black;
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 695px;
 }
 </style>
 
