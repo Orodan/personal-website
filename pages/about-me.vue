@@ -84,4 +84,6 @@ export default {
     Footer,
   }
 };
+
+document.title = 'Jimmy Kasprzak | about me'
 </script>
