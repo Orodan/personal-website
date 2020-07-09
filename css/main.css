@@ -5,6 +5,7 @@
   --blue: #039be5;
   --purple: #8e24aa;
   --orange: #fb8c00;
+  --white: #fff;
 }
 
 .green { color: var(--green); }
@@ -13,6 +14,7 @@
 .blue { color: var(--blue) }
 .orange { color: var(--orange); }
 .purple { color: var(--purple); }
+.white { color: var(--white); }
 
 .bg-green { background-color: var(--green); }
 .bg-blue { background-color: var(--blue); }

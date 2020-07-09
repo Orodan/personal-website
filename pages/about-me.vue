@@ -13,17 +13,17 @@
         <img src="~/assets/la-rochelle.jpg" alt="la rochelle picture">
       </div>
 
-      <div class="story-content">
+      <div class="story-content blue">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
       </div>
     </section>
 
     <section class="story">
-      <div class="story-content">
+      <div class="story-content bg-blue white">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
       </div>
 
-      <div class="story-picture">
+      <div class="story-picture violet">
         <img src="~/assets/paris.jpeg" alt="paris picture">
       </div>
     </section>
@@ -33,10 +33,12 @@
         <img src="~/assets/nantes.jpg" alt="nantes picture">
       </div>
 
-      <div class="story-content">
+      <div class="story-content blue">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
       </div>
     </section>
+
+    <Footer />
   </section>
 </template>
 
@@ -51,13 +53,17 @@
 .story {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  color: black;
+  background-color: #fff;
+}
+
+.story-picture {
+  display: flex;
 }
 
 .story-content {
   display: flex;
   padding: 40px;
-  background-color: #fff;
-  color: black;
   font-size: 26px;
   align-items: center;
   justify-content: center;
@@ -70,10 +76,12 @@ img {
 
 <script>
 import Header from "~/components/Header.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
     Header,
+    Footer,
   }
 };
 </script>
