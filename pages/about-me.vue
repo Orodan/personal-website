@@ -1,7 +1,5 @@
 <template>
   <section>
-    <Header />
-
     <section class="self-intro">
       Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
       <br/>
@@ -39,8 +37,6 @@
     </section>
 
     <AboutMe />
-
-    <Footer />
   </section>
 </template>
 
@@ -77,14 +73,10 @@ img {
 </style>
 
 <script>
-import Header from "~/components/Header.vue";
-import Footer from "~/components/Footer.vue";
 import AboutMe from "~/components/AboutMe.vue";
 
 export default {
   components: {
-    Header,
-    Footer,
     AboutMe,
   }
 };

@@ -1,7 +1,5 @@
 <template>
   <section class="index-page">
-    <Header />
-
     <section class="self-intro">
       Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
       <br/>
@@ -17,8 +15,6 @@
       <ProfessionalExperiences />
       <Skills />
     </section>
-
-    <Footer />
   </section>
 </template>
 
