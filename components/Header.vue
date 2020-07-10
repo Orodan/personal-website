@@ -23,7 +23,6 @@ export default {
 
 <style scoped>
 header {
-  flex: 1;
   display: flex;
   color: #eeeeee;
 }
