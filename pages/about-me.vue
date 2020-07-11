@@ -81,5 +81,5 @@ export default {
   }
 };
 
-document.title = 'Jimmy Kasprzak | about me'
+if (process.client) document.title = 'Jimmy Kasprzak | about me'
 </script>
