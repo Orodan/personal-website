@@ -12,7 +12,7 @@
     </section>
 
     <section class="row-1-2">
-      <ProfessionalExperiences />
+      <ProfessionalExperiencesSummary />
       <Skills />
     </section>
   </section>
@@ -22,7 +22,7 @@
 import Header from "~/components/Header.vue";
 import AboutMe from "~/components/AboutMe.vue";
 import PersonalInfo from "~/components/PersonalInfo.vue";
-import ProfessionalExperiences from "~/components/ProfessionalExperiences.vue";
+import ProfessionalExperiencesSummary from "~/components/home/ProfessionalExperiencesSummary.vue";
 import Skills from "~/components/Skills.vue";
 import Footer from "~/components/Footer.vue";
 
@@ -31,7 +31,7 @@ export default {
     Header,
     AboutMe,
     PersonalInfo,
-    ProfessionalExperiences,
+    ProfessionalExperiencesSummary,
     Skills,
     Footer
   }

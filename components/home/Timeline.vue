@@ -1,8 +1,10 @@
 <template>
   <section>
-    <div v-for="experience in experiences" :key="experience.title" class="experience">
-      <strong>{{ experience.title }}</strong>
-      <p>{{ experience.content }}</p>
+    <div v-for="experience in experiences" :key="experience.title">
+      <div class="experience">
+        <strong>{{ experience.title }}</strong>
+        <p>{{ experience.content }}</p>
+      </div>
     </div>
   </section>
 </template>

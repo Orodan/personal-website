@@ -1,5 +1,5 @@
 <template>
-  <section class="professional-experiences">
+  <section class="professional-experiences-summary">
     <h2>Professional experiences</h2>
 
     <Timeline title="titre" :experiences="experiences" />
@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style scoped>
-.professional-experiences {
+.professional-experiences-summary {
   padding: 40px;
   color: #eee;
   background-color: var(--purple);

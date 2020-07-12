@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ProfessionalExperiences from "~/components/ProfessionalExperiences.vue";
+import ProfessionalExperiences from "~/components/work/ProfessionalExperiences.vue";
 
 export default {
   components: {
