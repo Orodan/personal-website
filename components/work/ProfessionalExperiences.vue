@@ -1,8 +1,10 @@
 <template>
   <section class="experiences">
     <div v-for="experience in experiences" :key="experience.title" class="experience">
-      <strong>{{ experience.title }}</strong>
-      <p>{{ experience.content }}</p>
+      <div class="experience-card">
+        <strong>{{ experience.title }}</strong>
+        <p>{{ experience.content }}</p>
+      </div>
     </div>
   </section>
 </template>
@@ -36,80 +38,59 @@
 }
 
 .experience {
+  display: flex;
+  justify-content: center;
   position: relative;
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  transform: translateX(50%);
   color: #eee;
+  width: 100%;
 }
 
 .experience:before {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   content: '';
   height: 11px;
   width: 11px;
-  left: -5px;
-  top: 15px;
+  top: 30px;
   background-color: #eee;
   border-radius: 50%;
-  display: inline-block;
   z-index: 1;
 }
 
 .experience:after {
   position: absolute;
-  content: '';
-  height: 100%;
-  width: 1px;
-  left: 0;
-  top: 0;
-  background-color: #eee;
-  display: inline-block;
-  z-index: 0;
-}
-
-.experience:nth-child(odd) {
+  left: 50%;
   transform: translateX(-50%);
-  text-align: right;
-  padding-right: 30px;
-  padding-left: 0;
-}
-
-.experience:nth-child(odd):before  {
-  position: absolute;
-  right: -5px;
-  content: '';
-  height: 11px;
-  width: 11px;
-  top: 15px;
-  background-color: #eee;
-  border-radius: 50%;
-  display: inline-block;
-  z-index: 1;
-  left: auto;
-}
-
-.experience:nth-child(odd):after {
-  position: absolute;
   content: '';
   height: 100%;
   width: 1px;
-  right: 0;
   top: 0;
   background-color: #eee;
-  display: inline-block;
   z-index: 0;
-  left: auto;
+  display: inline-block;
 }
 
 .experience:first-child:after {
   top: -13px;
-  height: 120%;
+  height: 140%;
 }
 
 .experience:last-child:after {
-  height: 120%;
+  height: 140%;
+}
+
+.experience-card {
+  padding: 20px;
+}
+
+.experience:nth-child(odd) .experience-card {
+  transform: translateX(70%);
+}
+
+.experience:nth-child(even) .experience-card {
+  transform: translateX(-70%);
+  text-align: right;
 }
 </style>
 
