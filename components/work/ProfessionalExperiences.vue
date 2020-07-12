@@ -22,7 +22,7 @@
 .experiences:before, .experiences:after {
   content: '';
   border-radius: 50%;
-  background-color: #eee;
+  background-color: var(--white);
   width: 25px;
   height: 25px;
 }
@@ -39,7 +39,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  color: #eee;
+  color: var(--white);
   width: 100%;
 }
 
@@ -54,7 +54,7 @@
   height: 11px;
   width: 11px;
   top: 30px;
-  background-color: #eee;
+  background-color: var(--white);
   border-radius: 50%;
   z-index: 1;
 }
@@ -63,7 +63,7 @@
   height: 100%;
   width: 1px;
   top: 0;
-  background-color: #eee;
+  background-color: var(--white);
   z-index: 0;
   display: inline-block;
 }
