@@ -19,21 +19,19 @@
   position: relative;
 }
 
-.experiences:before {
+.experiences:before, .experiences:after {
   content: '';
   border-radius: 50%;
   background-color: #eee;
   width: 25px;
   height: 25px;
+}
+
+.experiences:before {
   transform: translateY(-50%);
 }
 
 .experiences:after {
-  content: '';
-  border-radius: 50%;
-  background-color: #eee;
-  width: 25px;
-  height: 25px;
   transform: translateY(50%);
 }
 
@@ -45,11 +43,14 @@
   width: 100%;
 }
 
-.experience:before {
+.experience:before, .experience:after {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   content: '';
+}
+
+.experience:before {
   height: 11px;
   width: 11px;
   top: 30px;
@@ -59,10 +60,6 @@
 }
 
 .experience:after {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  content: '';
   height: 100%;
   width: 1px;
   top: 0;
