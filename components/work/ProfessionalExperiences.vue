@@ -12,7 +12,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--purple)
+  background-color: var(--purple);
+  padding: 40px 0;
+  position: relative;
+}
+
+.experiences:before {
+  content: '';
+  border-radius: 50%;
+  background-color: #eee;
+  width: 25px;
+  height: 25px;
+  transform: translateY(-50%);
+}
+
+.experiences:after {
+  content: '';
+  border-radius: 50%;
+  background-color: #eee;
+  width: 25px;
+  height: 25px;
+  transform: translateY(50%);
 }
 
 .experience {
@@ -81,6 +101,15 @@
   display: inline-block;
   z-index: 0;
   left: auto;
+}
+
+.experience:first-child:after {
+  top: -13px;
+  height: 120%;
+}
+
+.experience:last-child:after {
+  height: 120%;
 }
 </style>
 
