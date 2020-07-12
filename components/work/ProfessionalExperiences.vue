@@ -1,10 +1,8 @@
 <template>
   <section class="experiences">
-    <div v-for="experience in experiences" :key="experience.title">
-      <div class="experience">
-        <strong>{{ experience.title }}</strong>
-        <p>{{ experience.content }}</p>
-      </div>
+    <div v-for="experience in experiences" :key="experience.title" class="experience">
+      <strong>{{ experience.title }}</strong>
+      <p>{{ experience.content }}</p>
     </div>
   </section>
 </template>
@@ -31,7 +29,7 @@
   content: '';
   height: 11px;
   width: 11px;
-  left: 5px;
+  left: -5px;
   top: 15px;
   background-color: #eee;
   border-radius: 50%;
@@ -44,11 +42,45 @@
   content: '';
   height: 100%;
   width: 1px;
-  left: 10px;
+  left: 0;
   top: 0;
   background-color: #eee;
   display: inline-block;
   z-index: 0;
+}
+
+.experience:nth-child(odd) {
+  transform: translateX(-50%);
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 0;
+}
+
+.experience:nth-child(odd):before  {
+  position: absolute;
+  right: -5px;
+  content: '';
+  height: 11px;
+  width: 11px;
+  top: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+  left: auto;
+}
+
+.experience:nth-child(odd):after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 1px;
+  right: 0;
+  top: 0;
+  background-color: #eee;
+  display: inline-block;
+  z-index: 0;
+  left: auto;
 }
 </style>
 
@@ -63,7 +95,15 @@ export default {
       {
         title: 'Saint Gobain',
         content: '01/2018 - 09/2018 | Full stack developer'
-      }
+      },
+      {
+        title: 'My Money Bank',
+        content: '11/2018 - Now | JS developer',
+      },
+      {
+        title: 'Saint Gobain',
+        content: '01/2018 - 09/2018 | Full stack developer'
+      },
     ]
 
   return {
