@@ -1,10 +1,8 @@
 <template>
   <section class="experiences">
+
     <div v-for="experience in experiences" :key="experience.title" class="experience">
-      <div class="experience-card">
-        <strong>{{ experience.title }}</strong>
-        <p>{{ experience.content }}</p>
-      </div>
+      <ExperienceCard :title="experience.title" :content="experience.content" />
     </div>
   </section>
 </template>
@@ -77,10 +75,6 @@
   height: 140%;
 }
 
-.experience-card {
-  padding: 20px;
-}
-
 .experience:nth-child(odd) .experience-card {
   transform: translateX(70%);
 }
@@ -92,7 +86,12 @@
 </style>
 
 <script>
+import ExperienceCard from "~/components/work/ExperienceCard.vue";
+
 export default {
+  components: {
+    ExperienceCard,
+  },
   data: () => {
     const experiences = [
       {
