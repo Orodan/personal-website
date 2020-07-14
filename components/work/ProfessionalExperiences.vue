@@ -30,14 +30,6 @@
   height: 25px;
 }
 
-.experiences:before {
-  transform: translateY(-50%);
-}
-
-.experiences:after {
-  transform: translateY(50%);
-}
-
 .experience {
   display: flex;
   justify-content: center;
@@ -56,7 +48,7 @@
 .experience:before {
   height: 11px;
   width: 11px;
-  top: 30px;
+  top: 40px;
   background-color: var(--white);
   border-radius: 50%;
   z-index: 1;
@@ -71,13 +63,12 @@
   display: inline-block;
 }
 
-.experience:first-child:after {
-  top: -13px;
-  height: 140%;
+.experience:first-child {
+  padding-top: 40px;
 }
 
-.experience:last-child:after {
-  height: 140%;
+.experience:last-child {
+  padding-bottom: 40px;
 }
 
 .experience:nth-child(odd) > * {
@@ -105,18 +96,24 @@ export default {
         role: 'JS developer',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
       },
-      // {
-      //   title: 'Saint Gobain',
-      //   content: '01/2018 - 09/2018 | Full stack developer'
-      // },
-      // {
-      //   title: 'My Money Bank 2',
-      //   content: '11/2018 - Now | JS developer',
-      // },
-      // {
-      //   title: 'Saint Gobain 2',
-      //   content: '01/2018 - 09/2018 | Full stack developer'
-      // },
+      {
+        company: 'My Money Bank 2',
+        period: '11/2018 - Now',
+        role: 'JS developer',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+      },
+      {
+        company: 'My Money Bank 3',
+        period: '11/2018 - Now',
+        role: 'JS developer',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+      },
+      {
+        company: 'My Money Bank 4',
+        period: '11/2018 - Now',
+        role: 'JS developer',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+      },
     ]
 
   return {
