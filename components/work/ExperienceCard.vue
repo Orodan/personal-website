@@ -1,7 +1,9 @@
 <template>
   <div class="experience-card">
-    <strong>{{ title }}</strong>
-    <p>{{ content }}</p>
+    <strong>{{ company }}</strong>
+    <p>{{ period }} | {{ role }}</p>
+
+    <p class="description">{{ description }}</p>
   </div>
 </template>
 
@@ -10,21 +12,32 @@
   padding: 20px;
   border: thin solid var(--white);
   border-radius: 5px;
+  max-width: 400px;
 }
 
 strong {
   display: inline-block;
   margin-bottom: 5px;
 }
+
+.description {
+  margin-top: 20px;
+}
 </style>
 
 <script>
 export default {
   props: {
-    title: {
+    company: {
       type: String,
     },
-    content: {
+    period: {
+      type: String,
+    },
+    role: {
+      type: String,
+    },
+    description: {
       type: String,
     }
   }

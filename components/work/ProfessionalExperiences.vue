@@ -2,7 +2,12 @@
   <section class="experiences">
 
     <div v-for="experience in experiences" :key="experience.title" class="experience">
-      <ExperienceCard :title="experience.title" :content="experience.content" />
+      <ExperienceCard
+        :company="experience.company"
+        :period="experience.period"
+        :role="experience.role"
+        :description="experience.description"
+      />
     </div>
   </section>
 </template>
@@ -95,21 +100,23 @@ export default {
   data: () => {
     const experiences = [
       {
-        title: 'My Money Bank',
-        content: '11/2018 - Now | JS developer',
+        company: 'My Money Bank',
+        period: '11/2018 - Now',
+        role: 'JS developer',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
       },
-      {
-        title: 'Saint Gobain',
-        content: '01/2018 - 09/2018 | Full stack developer'
-      },
-      {
-        title: 'My Money Bank',
-        content: '11/2018 - Now | JS developer',
-      },
-      {
-        title: 'Saint Gobain',
-        content: '01/2018 - 09/2018 | Full stack developer'
-      },
+      // {
+      //   title: 'Saint Gobain',
+      //   content: '01/2018 - 09/2018 | Full stack developer'
+      // },
+      // {
+      //   title: 'My Money Bank 2',
+      //   content: '11/2018 - Now | JS developer',
+      // },
+      // {
+      //   title: 'Saint Gobain 2',
+      //   content: '01/2018 - 09/2018 | Full stack developer'
+      // },
     ]
 
   return {
