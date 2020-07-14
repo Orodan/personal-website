@@ -75,11 +75,11 @@
   height: 140%;
 }
 
-.experience:nth-child(odd) .experience-card {
+.experience:nth-child(odd) > * {
   transform: translateX(70%);
 }
 
-.experience:nth-child(even) .experience-card {
+.experience:nth-child(even) > * {
   transform: translateX(-70%);
   text-align: right;
 }
