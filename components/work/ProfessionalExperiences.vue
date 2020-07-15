@@ -7,6 +7,7 @@
         :period="experience.period"
         :role="experience.role"
         :description="experience.description"
+        :skills="experience.skills"
       />
     </div>
   </section>
@@ -94,25 +95,37 @@ export default {
         company: 'My Money Bank',
         period: '11/2018 - Now',
         role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        skills: [
+          'React', 'Node.js', 'Graphql'
+        ]
       },
       {
         company: 'My Money Bank 2',
         period: '11/2018 - Now',
         role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        skills: [
+          'React', 'Node.js', 'Graphql'
+        ]
       },
       {
         company: 'My Money Bank 3',
         period: '11/2018 - Now',
         role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        skills: [
+          'React', 'Node.js', 'Graphql'
+        ]
       },
       {
         company: 'My Money Bank 4',
         period: '11/2018 - Now',
         role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam'
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        skills: [
+          'React', 'Node.js', 'Graphql'
+        ]
       },
     ]
 

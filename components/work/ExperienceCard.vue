@@ -4,6 +4,10 @@
     <p>{{ period }} | {{ role }}</p>
 
     <p class="description">{{ description }}</p>
+
+    <div class="skills">
+      <div v-for="skill in skills" :key="skill" class="skill">{{ skill }}</div>
+    </div>
   </div>
 </template>
 
@@ -23,6 +27,18 @@ strong {
 .description {
   margin-top: 20px;
 }
+
+.skills {
+  padding-top: 20px;
+}
+
+.skill {
+  border: thin solid var(--white);
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 10px 0 0;
+}
 </style>
 
 <script>
@@ -39,6 +55,9 @@ export default {
     },
     description: {
       type: String,
+    },
+    skills: {
+      type: Array,
     }
   }
 }
