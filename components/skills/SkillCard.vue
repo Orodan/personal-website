@@ -22,7 +22,7 @@ export default {
 .skill-card {
   flex: 1;
   background-color: #eee;
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px;
   border-radius: 3px;
   flex-basis: 350px;
@@ -33,13 +33,13 @@ export default {
   font-weight: 600;
   background-color: var(--orange);
   color: var(--white);
-  padding: 20px;
+  padding: 20px 30px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
 
 .skill-card-content {
-  padding: 20px;
+  padding: 30px;
   color: white;
   background-color: #4f4f4f;
 }
