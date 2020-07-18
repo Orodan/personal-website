@@ -24,9 +24,9 @@
 
 <style scoped>
 .contact {
-  background-color: var(--white);
-  padding: 40px;
+  padding: 100px 40px;
   display: flex;
+  background: linear-gradient(120deg, var(--white) 50%, var(--red) 50%);
 }
 
 .left {
@@ -41,6 +41,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--white);
 }
 
 .right > * {
