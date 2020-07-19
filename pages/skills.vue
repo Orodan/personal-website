@@ -47,12 +47,10 @@
 </template>
 
 <script>
-import SkillCard from "~/components/skills/SkillCard.vue";
 import SkillDiamond from "~/components/skills/SkillDiamond.vue";
 
 export default {
   components: {
-    SkillCard,
     SkillDiamond
   },
   data: () => {
