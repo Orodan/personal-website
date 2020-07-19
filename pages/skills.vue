@@ -6,18 +6,54 @@
       This is non-exhaustive, completly subjective, but it allows you to know very quickly what my tech interests and competences are at the moment.
     </section>
 
-    <section class="skill-list">
-      <SkillCard v-for="skill in skills" :key="skill.title" :title="skill.title" :content="skill.content" />
+    <section class="diamonds-container">
+      <section class="level expert">
+        <div class="level-intro">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+        </div>
+
+        <div class="level-content">
+          <SkillDiamond />
+          <SkillDiamond />
+          <SkillDiamond />
+        </div>
+      </section>
+
+      <section class="level good">
+        <div class="level-intro">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+        </div>
+
+        <div class="level-content">
+          <SkillDiamond />
+          <SkillDiamond />
+          <SkillDiamond />
+        </div>
+      </section>
+
+      <section class="level medium">
+        <div class="level-intro">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+        </div>
+
+        <div class="level-content">
+          <SkillDiamond />
+          <SkillDiamond />
+          <SkillDiamond />
+        </div>
+      </section>
     </section>
   </section>
 </template>
 
 <script>
 import SkillCard from "~/components/skills/SkillCard.vue";
+import SkillDiamond from "~/components/skills/SkillDiamond.vue";
 
 export default {
   components: {
-    SkillCard
+    SkillCard,
+    SkillDiamond
   },
   data: () => {
     const skills = [
@@ -51,6 +87,38 @@ export default {
 </script>
 
 <style scoped>
+.level {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+
+.expert {
+  background-color: var(--green);
+}
+
+.good {
+  background-color: #67cc6b;
+}
+
+.medium {
+  background-color: var(--orange);
+}
+
+.level-intro {
+  padding: 40px;
+  color: var(--white);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.level-content {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
 .skills-intro {
   padding: 60px 40px;
   color: var(--white);
