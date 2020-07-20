@@ -3,7 +3,8 @@
     <section class="skills-intro">
       In this page, you can find tech skills I like to use at the moment.
       <br />
-      This is non-exhaustive, completly subjective, but it allows you to know very quickly what my tech interests and competences are at the moment.
+      This is non-exhaustive, completly subjective, but it allows you to know very quickly what my tech interests and competences are at the moment. If you want more details on my experience
+      the listed skills, check out my work page :).
     </section>
 
     <section class="diamonds-container">
@@ -145,7 +146,7 @@ export default {
 .skills-intro {
   padding: 60px 40px;
   color: var(--white);
-  font-size: 26px;
+  font-size: 24px;
   background-color: var(--orange);
 }
 
