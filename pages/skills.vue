@@ -9,37 +9,47 @@
     <section class="diamonds-container">
       <section class="level expert">
         <div class="level-intro">
+          <h3>Proficient</h3>
+
+          <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+          </p>
         </div>
 
         <div class="level-content">
-          <SkillDiamond />
-          <SkillDiamond />
-          <SkillDiamond />
+          <section>
+            <SkillDiamond />
+            <SkillDiamond />
+            <SkillDiamond />
+          </section>
+          <section>
+            <SkillDiamond />
+            <SkillDiamond />
+            <SkillDiamond />
+          </section>
         </div>
       </section>
 
       <section class="level good">
         <div class="level-intro">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+          <h3>Good</h3>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+          </p>
         </div>
 
         <div class="level-content">
-          <SkillDiamond />
-          <SkillDiamond />
-          <SkillDiamond />
-        </div>
-      </section>
-
-      <section class="level medium">
-        <div class="level-intro">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
-        </div>
-
-        <div class="level-content">
-          <SkillDiamond />
-          <SkillDiamond />
-          <SkillDiamond />
+          <section>
+            <SkillDiamond />
+            <SkillDiamond />
+            <SkillDiamond />
+          </section>
+          <section>
+            <SkillDiamond />
+            <SkillDiamond />
+            <SkillDiamond />
+          </section>
         </div>
       </section>
     </section>
@@ -93,6 +103,7 @@ export default {
 
 .expert {
   background-color: var(--green);
+  /* background: linear-gradient(120deg, var(--green) 40%, var(--white) 40%); */
 }
 
 .good {
@@ -108,13 +119,27 @@ export default {
   color: var(--white);
   font-size: 18px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
+
+.level-intro h3 {
+  font-size: 26px;
+  flex: 1;
+}
+
+.level-intro > p {
+  flex: 2;
 }
 
 .level-content {
   display: flex;
   justify-content: center;
   padding: 40px;
+  flex-direction: column;
+}
+
+.level-content > section {
+  display: flex;
 }
 
 .skills-intro {

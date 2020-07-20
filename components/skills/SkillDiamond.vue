@@ -11,6 +11,7 @@
   background-color: var(--white);
   transform: rotate(45deg);
   margin: 20px 40px;
+  border-radius: 50%;
 }
 
 .skill-diamond > div {
