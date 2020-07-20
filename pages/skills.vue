@@ -1,7 +1,7 @@
 <template>
   <section>
     <section class="skills-intro">
-      In this page, you can find tech skills I like to use at the moment.
+      In this page, you can find skills (both tech and soft) I like to use at the moment.
       <br />
       This is non-exhaustive, completly subjective, but it allows you to know very quickly what my tech interests and competences are at the moment. If you want more details on my experience
       on the listed skills, check out my work page :).
@@ -52,6 +52,10 @@
             <SkillDiamond />
           </section>
         </div>
+      </section>
+
+      <section class="skills-intro">
+        Because work is not only about tech skills, below you can also find soft skills I value a lot.
       </section>
     </section>
   </section>
@@ -104,7 +108,6 @@ export default {
 
 .expert {
   background-color: var(--green);
-  /* background: linear-gradient(120deg, var(--green) 40%, var(--white) 40%); */
 }
 
 .good {
@@ -145,9 +148,8 @@ export default {
 
 .skills-intro {
   padding: 60px 40px;
-  color: var(--white);
   font-size: 24px;
-  background-color: var(--orange);
+  background-color: var(--white);
 }
 
 .skill-list {
