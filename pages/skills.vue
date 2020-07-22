@@ -54,8 +54,25 @@
         </div>
       </section>
 
-      <section class="skills-intro">
+      <section class="soft-skills-intro ">
         Because work is not only about tech skills, below you can also find soft skills I value a lot.
+      </section>
+
+      <section class="soft-skills">
+        <div class="soft-skill">
+          <strong class="orange">Communication</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sunt cum omnis? Provident officia ut nulla est magnam, rerum ex inventore, voluptate similique fugiat iusto sed repellat odio laboriosam ducimus!</p>
+        </div>
+
+        <div class="soft-skill">
+          <strong class="green">Empathy</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sunt cum omnis? Provident officia ut nulla est magnam, rerum ex inventore, voluptate similique fugiat iusto sed repellat odio laboriosam ducimus!</p>
+        </div>
+
+        <div class="soft-skill">
+          <strong class="blue">Benevolence</strong>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sunt cum omnis? Provident officia ut nulla est magnam, rerum ex inventore, voluptate similique fugiat iusto sed repellat odio laboriosam ducimus!</p>
+        </div>
       </section>
     </section>
   </section>
@@ -152,10 +169,34 @@ export default {
   background-color: var(--white);
 }
 
+.soft-skills-intro {
+  padding: 60px 40px 40px 40px;
+  font-size: 24px;
+  background-color: var(--white);
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--white);
   padding: 40px;
+}
+
+.soft-skills {
+  padding: 0 40px 40px 40px;
+  display: flex;
+  background-color: var(--white);
+}
+
+.soft-skill {
+  margin-right: 30px;
+}
+
+.soft-skill > strong {
+  font-size: 22px;
+}
+
+.soft-skill > p {
+  margin-top: 20px;
 }
 </style>
