@@ -183,7 +183,7 @@ export default {
 }
 
 .soft-skills {
-  padding: 0 40px 40px 40px;
+  padding: 0 40px 60px 40px;
   display: flex;
   background-color: var(--white);
 }
