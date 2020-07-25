@@ -8,8 +8,16 @@ import ProfessionalExperiences from "~/components/work/ProfessionalExperiences.v
 export default {
   components: {
     ProfessionalExperiences,
+  },
+  data () {
+    return {
+      title: 'Jimmy Kasprzak | work',
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+    }
   }
 };
-
-if (process.client) document.title = 'Jimmy Kasprzak | work'
 </script>

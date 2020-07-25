@@ -4,6 +4,21 @@
   </section>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      title: 'Jimmy Kasprzak | more',
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+    }
+  }
+}
+</script>
+
 <style scoped>
 .more-intro {
   padding: 60px 40px;

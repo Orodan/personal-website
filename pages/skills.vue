@@ -110,7 +110,13 @@ export default {
     ]
 
     return {
-      skills
+      skills,
+      title: 'Jimmy Kasprzak | skills'
+    }
+  },
+  head () {
+    return {
+      title: this.title
     }
   }
 }

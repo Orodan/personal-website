@@ -22,6 +22,21 @@
   </section>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+      title: 'Jimmy Kasprzak | contact',
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+    }
+  }
+}
+</script>
+
 <style scoped>
 .contact {
   padding: 100px 40px;

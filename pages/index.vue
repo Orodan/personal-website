@@ -34,6 +34,16 @@ export default {
     ProfessionalExperiencesSummary,
     SkillsSummary,
     Footer
+  },
+  data () {
+    return {
+      title: 'Jimmy Kasprzak | home',
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+    }
   }
 };
 </script>
