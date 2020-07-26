@@ -19,14 +19,14 @@
 
         <div class="level-content">
           <section>
-            <SkillDiamond />
-            <SkillDiamond />
-            <SkillDiamond />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
           </section>
           <section>
-            <SkillDiamond />
-            <SkillDiamond />
-            <SkillDiamond />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
           </section>
         </div>
       </section>
@@ -42,14 +42,14 @@
 
         <div class="level-content">
           <section>
-            <SkillDiamond />
-            <SkillDiamond />
-            <SkillDiamond />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
           </section>
           <section>
-            <SkillDiamond />
-            <SkillDiamond />
-            <SkillDiamond />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
+            <SkillCard title="Angular" />
           </section>
         </div>
       </section>
@@ -79,38 +79,14 @@
 </template>
 
 <script>
-import SkillDiamond from "~/components/skills/SkillDiamond.vue";
+import SkillCard from "~/components/skills/SkillCard.vue";
 
 export default {
   components: {
-    SkillDiamond
+    SkillCard
   },
   data: () => {
-    const skills = [
-      {
-        title: 'Angular',
-        content: 'My go-to framework/ecosystem by default. I find it very robust, very powerfull and with an awesome documentation and community. You can build an entire real application with basically only what Angular provides you and I like the oppinions taken by Angular if you decide to use it on your project.'
-      },
-      {
-        title: 'Angular',
-        content: 'My go-to framework/ecosystem by default. I find it very robust, very powerfull and with an awesome documentation and community. You can build an entire real application with basically only what Angular provides you and I like the oppinions taken by Angular if you decide to use it on your project.'
-      },
-      {
-        title: 'Angular',
-        content: 'My go-to framework/ecosystem by default. I find it very robust, very powerfull and with an awesome documentation and community. You can build an entire real application with basically only what Angular provides you and I like the oppinions taken by Angular if you decide to use it on your project.'
-      },
-      {
-        title: 'Angular',
-        content: 'My go-to framework/ecosystem by default. I find it very robust, very powerfull and with an awesome documentation and community. You can build an entire real application with basically only what Angular provides you and I like the oppinions taken by Angular if you decide to use it on your project.'
-      },
-      {
-        title: 'Angular',
-        content: 'My go-to framework/ecosystem by default. I find it very robust, very powerfull and with an awesome documentation and community. You can build an entire real application with basically only what Angular provides you and I like the oppinions taken by Angular if you decide to use it on your project.'
-      }
-    ]
-
     return {
-      skills,
       title: 'Jimmy Kasprzak | skills'
     }
   },
