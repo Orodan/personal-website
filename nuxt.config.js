@@ -29,7 +29,8 @@ export default {
   ** Doc: https://nuxtjs.org/api/configuration-css
   */
   css: [
-    '~/css/main.css'
+    '~/css/main.css',
+    '~/css/article.css'
   ],
 
   /*
@@ -45,6 +46,7 @@ export default {
   modules: [
     // Doc: https://http.nuxtjs.org
     '@nuxt/http',
+    '@nuxt/content'
   ],
 
   /*
