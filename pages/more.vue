@@ -5,16 +5,12 @@
     </section>
 
     <section class="articles">
-      <div class="card-article">
-        <h3>Creating my personel website with Nuxt</h3>
+      <div class="card-article" @click="goTo('creating-personal-website-with-nuxt')">
+        <h3>Creating my personal website with Nuxt</h3>
         <img src="~/assets/nuxt-icon.png" alt="nuxt icon" />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quae sequi amet possimus adipisci ea a ipsa! Ullam atque architecto sint laudantium? Voluptate esse</p>
       </div>
     </section>
-
-    <article>
-      <nuxt-content :document="article" />
-    </article>
   </section>
 </template>
 
@@ -24,6 +20,11 @@ export default {
     const article = await $content('articles', 'creating-personal-website-with-nuxt').fetch()
 
     return { article }
+  },
+  methods: {
+    goTo: function (slug) {
+      this.$router.push({ name: 'blog-slug', params: { slug } })
+    }
   },
   data () {
     return {
@@ -76,10 +77,5 @@ export default {
 .card-article img {
   width: 100%;
   margin-bottom: 20px;
-}
-
-article {
-  padding: 60px 40px;
-  background-color: var(--white);
 }
 </style>
