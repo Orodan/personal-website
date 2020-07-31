@@ -12,7 +12,8 @@
       </div>
 
       <div class="story-content blue">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
+        My story started in the beautiful city of La Rochelle. I joined the computer science university where I studied for five years to get my master degree.
+        In the last two years, I had the chance to be an apprentice in the information system management of my university.
       </div>
     </section>
 
