@@ -20,7 +20,8 @@
     <section class="story">
       <div class="story-content bg-blue white">
         After getting my master degree, I decided to leave La Rochelle and try my luck in Paris where I chose to join Zenika.
-        One of the best decision of my life. I stayed for 2 years where I got to work for EDF, AFP and Saint-Gobain, meeting amazing people and developping my skills in web development.
+        I stayed for 2 years where I got to work for EDF, AFP and Saint-Gobain, meeting amazing people and developping my skills in web development, mostly on Javascript, Angular and Spring.
+        I also became a trainer and gave formations on web topics.
       </div>
 
       <div class="story-picture violet">
@@ -34,7 +35,8 @@
       </div>
 
       <div class="story-content blue">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
+        Finally, I moved from Paris to Nantes. Luckily Zenika already had an agency where I could continue my journey in. Since I got here, I've been working as a web developer for MMB
+        where I learned React, graphql and so much more thanks to the people around me. And my journey keeps going until today in this beautiful city ...
       </div>
     </section>
 
