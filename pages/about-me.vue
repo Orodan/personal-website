@@ -19,7 +19,8 @@
 
     <section class="story">
       <div class="story-content bg-blue white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quasi iusto obcaecati necessitatibus, blanditiis ex exercitationem? Fugiat tempora consectetur eius quasi minus exercitationem, aspernatur fuga hic laboriosam, praesentium, voluptatibus veritatis.
+        After getting my master degree, I decided to leave La Rochelle and try my luck in Paris where I chose to join Zenika.
+        One of the best decision of my life. I stayed for 2 years where I got to work for EDF, AFP and Saint-Gobain, meeting amazing people and developping my skills in web development.
       </div>
 
       <div class="story-picture violet">
