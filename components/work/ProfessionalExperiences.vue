@@ -94,10 +94,10 @@ export default {
       {
         company: 'My Money Bank',
         period: '11/2018 - Now',
-        role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        role: 'Full stack developer',
+        description: 'Development of an application called the BU (Bureau Universel) which is used to create and manage credits. We acquire, verify and save clients data like the financial situation, official documents, requirement and so on. We also calculate indicators from this data to help decision making. Front end in React, a graphql server in Node.js and micro-services developed in Java with Spring boot.',
         skills: [
-          'React', 'Node.js', 'Graphql'
+          'React', 'Node.js', 'Graphql', 'Spring boot'
         ]
       },
       {
