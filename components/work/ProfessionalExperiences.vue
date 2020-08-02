@@ -95,18 +95,18 @@ export default {
         company: 'My Money Bank',
         period: '11/2018 - Now',
         role: 'Full stack developer',
-        description: 'Development of an application called the BU (Bureau Universel) which is used to create and manage credits. We acquire, verify and save clients data like the financial situation, official documents, requirement and so on. We also calculate indicators from this data to help decision making. Front end in React, a graphql server in Node.js and micro-services developed in Java with Spring boot.',
+        description: 'Development of an application to create and manage credits. We acquire, verify and save clients data like the financial situation, official documents, requirement and so on. We also calculate indicators from this data to help decision making. Front end was made with React. The back-end are micro-services developed in Java with Spring boot, and to connect both part we have a graphql server developed in Node.js and Typescript.',
         skills: [
-          'React', 'Node.js', 'Graphql', 'Spring boot'
+          'React', 'Node.js', 'Typescrip', 'Graphql', 'Java', 'Spring boot'
         ]
       },
       {
-        company: 'My Money Bank 2',
-        period: '11/2018 - Now',
-        role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        company: 'Saint-Gobain',
+        period: '03/2018 - 10/2018',
+        role: 'Full stack developer',
+        description: 'Development of an application to handle business logic of a materials manager : purchase, sale, inventory management, etc. The front-end was a big Angular (v5) application divided with a DDD approach into modules. The back-end was a list of REST apis in micro-services made with Java and Spring boot.',
         skills: [
-          'React', 'Node.js', 'Graphql'
+          'Angular', 'Typescript', 'Java', 'Spring boot'
         ]
       },
       {
