@@ -39,8 +39,6 @@
         where I learned React, graphql and so much more thanks to the people around me. And my journey keeps going until today in this beautiful city ...
       </div>
     </section>
-
-    <AboutMe />
   </section>
 </template>
 
