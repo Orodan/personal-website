@@ -119,12 +119,12 @@ export default {
         ]
       },
       {
-        company: 'My Money Bank 4',
-        period: '11/2018 - Now',
-        role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        company: 'EDF R&D',
+        period: '10/2016 - 11/2016',
+        role: 'Angular.js developer',
+        description: 'Development of a data visualizer using Angular.js. The objective was to be able to observe, compare and analyze data from EDF nuclear power plant sites. The application displayed data in several graphic forms and allow users to apply filters to narrow data to a specific set and compare it to another one. Made with Angular.js (1.5) Chart.s and Bootstrap (v3)',
         skills: [
-          'React', 'Node.js', 'Graphql'
+          'Angular.js', 'Chart.js', 'Bootstrap'
         ]
       },
     ]
