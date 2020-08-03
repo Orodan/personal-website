@@ -110,12 +110,12 @@ export default {
         ]
       },
       {
-        company: 'My Money Bank 3',
-        period: '11/2018 - Now',
-        role: 'JS developer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas totam incidunt ipsam, reprehenderit asperiores eaque, inventore minima quisquam voluptatem exercitationem recusandae assumenda nam',
+        company: 'AFP',
+        period: '11/2016 - 02/2018',
+        role: 'Full stack developer',
+        description: 'Development of an application allowing both journalists and people to send videos, photos and text. These elements can be sent associated with metadata. They are uploaded, verified and then indexed to be accessible in the AFP information system. Typescript and Angular (v4) was used for the front-end, Java and Spring boot for the back-end.',
         skills: [
-          'React', 'Node.js', 'Graphql'
+          'Angular', 'Typescript', 'Java', 'Spring boot'
         ]
       },
       {
