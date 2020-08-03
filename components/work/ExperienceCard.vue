@@ -39,6 +39,10 @@ strong {
   padding: 10px;
   margin: 10px 10px 0 0;
 }
+
+.skill:last-child {
+  margin: 10px 0 0;
+}
 </style>
 
 <script>
