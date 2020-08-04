@@ -127,6 +127,16 @@ export default {
           'Angular.js', 'Chart.js', 'Bootstrap'
         ]
       },
+
+      {
+        company: 'University of La Rochelle - IT System Department',
+        period: '9/2014 - 9/2016',
+        role: 'Full stack developer - apprentice',
+        description: 'Development of a open-source collaborative web platform called OAE (Open Academic Environment). This platform allowed users to create, give access and manage content like docs, excels, classes, similarly to google drive, but to universities and colleges. It also allow users to have the platform on their own servers and manage where are kept their datas by themselves. For example I integrated a Jitsi module to allow users to have visio call in real time. Realized with node.js and Javascript.',
+        skills: [
+          'Javascript', 'Node.js'
+        ]
+      },
     ]
 
   return {
