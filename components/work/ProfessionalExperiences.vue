@@ -127,7 +127,6 @@ export default {
           'Angular.js', 'Chart.js', 'Bootstrap'
         ]
       },
-
       {
         company: 'University of La Rochelle - IT System Department',
         period: '9/2014 - 9/2016',
@@ -135,6 +134,15 @@ export default {
         description: 'Development of a open-source collaborative web platform called OAE (Open Academic Environment). This platform allowed users to create, give access and manage content like docs, excels, classes, similarly to google drive, but to universities and colleges. It also allow users to have the platform on their own servers and manage where are kept their datas by themselves. For example I integrated a Jitsi module to allow users to have visio call in real time. Realized with node.js and Javascript.',
         skills: [
           'Javascript', 'Node.js'
+        ]
+      },
+      {
+        company: 'Irium France',
+        period: '5/2014 - 8/2014',
+        role: 'Php developer - trainee',
+        description: 'Development of SOAP webservices to enrich functionalities of an ERP, for customers managing agricultural equipment fleets. Made with CakePHP and Foundation as the css framework.',
+        skills: [
+          'Php', 'CakePHP', 'Foundation'
         ]
       },
     ]
