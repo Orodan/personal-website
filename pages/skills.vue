@@ -13,44 +13,44 @@
           <h3>Proficient</h3>
 
           <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+          On this section you can find skills I'm proficient at. It basically means I can hold my own when working with these technologies. I can manage and lead projects made with them and teach about it to others (I actually do teach about them already).
           </p>
         </div>
 
         <div class="level-content">
           <section>
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
+            <SkillCard title="JS" />
+            <SkillCard title="Node.js" />
             <SkillCard title="Angular" />
           </section>
           <section>
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
+            <SkillCard title="React" />
+            <SkillCard title="Graphql" />
+            <SkillCard title="Typescript" />
           </section>
         </div>
       </section>
 
       <section class="level good">
+        <div class="level-content">
+          <section>
+            <SkillCard title="Java" />
+            <SkillCard title="Spring" />
+            <SkillCard title="Vue.js" />
+          </section>
+          <section>
+            <SkillCard title="Nuxt" />
+            <SkillCard title="Rxjs" />
+            <SkillCard title="Css" />
+          </section>
+        </div>
+
         <div class="level-intro">
           <h3>Good</h3>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus placeat enim facilis asperiores nam excepturi adipisci ipsam amet nisi tempora temporibus, magnam eos consectetur facere aliquam debitis dolorem. Totam, similique.
+            You'll find on this section technologies I'm used to work with. I'm no expert but I still considered myself good enough on those to be productive when developing with them.
           </p>
-        </div>
-
-        <div class="level-content">
-          <section>
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
-          </section>
-          <section>
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
-            <SkillCard title="Angular" />
-          </section>
         </div>
       </section>
 
