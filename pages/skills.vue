@@ -61,17 +61,17 @@
       <section class="soft-skills">
         <div class="soft-skill">
           <strong class="orange">Communication</strong>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sunt cum omnis? Provident officia ut nulla est magnam, rerum ex inventore, voluptate similique fugiat iusto sed repellat odio laboriosam ducimus!</p>
+          <p>No matter the company, the technologie or the people you're working with, communication is for me an essential skill in every project. A project never gets done alone. Being skilled technicaly is good, but being able to communicate and explain what you did to the people around you is even better !</p>
         </div>
 
         <div class="soft-skill">
           <strong class="green">Empathy</strong>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sunt cum omnis? Provident officia ut nulla est magnam, rerum ex inventore, voluptate similique fugiat iusto sed repellat odio laboriosam ducimus!</p>
+          <p>Empathy is usefull in some many ways when working, even as a developer. It allows you to properly comprehend what the user wants. It allows you to explain what's wrong in a code review without hurting your colleague. It allows you to comunicate properly to non-tech people. Etc ... Empathy is essential :)</p>
         </div>
 
         <div class="soft-skill">
           <strong class="blue">Benevolence</strong>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque sunt cum omnis? Provident officia ut nulla est magnam, rerum ex inventore, voluptate similique fugiat iusto sed repellat odio laboriosam ducimus!</p>
+          <p>Always consider that everyone is doing his best in their work. You will always encounter problems when working, but almost nobody come working with the intention to mess up something. Consider other people with benevolence and they will do the same with you.</p>
         </div>
       </section>
     </section>
