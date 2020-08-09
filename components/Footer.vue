@@ -10,7 +10,7 @@
     <section>
       <h3>Follow me</h3>
 
-      <i class="material-icons">sentiment_satisfied_alt</i>
+      <img class="social-icon" src="~/assets/Twitter_Logo_WhiteOnBlue.png" alt="twitter logo" />
       <i class="material-icons">sentiment_satisfied_alt</i>
       <i class="material-icons">sentiment_satisfied_alt</i>
       <i class="material-icons">sentiment_satisfied_alt</i>
@@ -22,6 +22,13 @@
 </template>
 
 <style scoped>
+.social-icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 footer {
   display: grid;
   background-color: #4f4f4f;
