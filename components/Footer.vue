@@ -10,7 +10,9 @@
     <section>
       <h3>Follow me</h3>
 
-      <img class="social-icon" src="~/assets/Twitter_Logo_WhiteOnBlue.png" alt="twitter logo" />
+      <a class="social-link" href="https://twitter.com/JimmyKasprzak" target="__blank">
+        <img class="social-icon" src="~/assets/Twitter_Logo_WhiteOnBlue.png" alt="twitter logo" />
+      </a>
       <i class="material-icons">sentiment_satisfied_alt</i>
       <i class="material-icons">sentiment_satisfied_alt</i>
       <i class="material-icons">sentiment_satisfied_alt</i>
@@ -22,11 +24,17 @@
 </template>
 
 <style scoped>
-.social-icon {
+.social-link {
+  display: inline-block;
   height: 35px;
   width: 35px;
   margin-right: 10px;
   cursor: pointer;
+}
+
+.social-icon {
+  width: 100%;
+  height: 100%;
 }
 
 footer {
