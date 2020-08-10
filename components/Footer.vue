@@ -16,10 +16,9 @@
       <a class="social-link" href="https://github.com/Orodan" target="__blank">
         <img class="social-icon" src="~/assets/GitHub-Mark-Light-64px.png" alt="github logo" />
       </a>
-      <i class="material-icons">sentiment_satisfied_alt</i>
-      <i class="material-icons">sentiment_satisfied_alt</i>
-      <i class="material-icons">sentiment_satisfied_alt</i>
-      <i class="material-icons">sentiment_satisfied_alt</i>
+      <a class="social-link linkedin" href="https://www.linkedin.com/in/jimmy-kasprzak/" target="__blank">
+        <img class="social-icon" src="~/assets/LI-In-Bug.png" alt="linkedin logo" />
+      </a>
     </section>
 
     <section class="copyright">© 2020 Jimmy Kasprzak.</section>
@@ -33,6 +32,10 @@
   width: 35px;
   margin-right: 10px;
   cursor: pointer;
+}
+
+.linkedin {
+  width: 40px;
 }
 
 .social-icon {
