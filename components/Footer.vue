@@ -21,7 +21,12 @@
       </a>
     </section>
 
-    <section class="copyright">© 2020 Jimmy Kasprzak.</section>
+    <section class="copyright">
+      Made with love by Jimmy kasprzak.
+    </section>
+    <section class="copyright">
+      © 2020 Jimmy Kasprzak
+    </section>
   </footer>
 </template>
 
