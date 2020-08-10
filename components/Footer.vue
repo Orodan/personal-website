@@ -13,6 +13,9 @@
       <a class="social-link" href="https://twitter.com/JimmyKasprzak" target="__blank">
         <img class="social-icon" src="~/assets/Twitter_Logo_WhiteOnBlue.png" alt="twitter logo" />
       </a>
+      <a class="social-link" href="https://github.com/Orodan" target="__blank">
+        <img class="social-icon" src="~/assets/GitHub-Mark-Light-64px.png" alt="github logo" />
+      </a>
       <i class="material-icons">sentiment_satisfied_alt</i>
       <i class="material-icons">sentiment_satisfied_alt</i>
       <i class="material-icons">sentiment_satisfied_alt</i>
