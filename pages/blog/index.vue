@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="more-intro">
+    <section class="blog-intro">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore et. Explicabo at sequi eius numquam veritatis, necessitatibus iste consectetur distinctio sunt eum laborum illo eaque assumenda quo culpa illum!
     </section>
 
@@ -40,7 +40,7 @@ export default {
 </script>
 
 <style scoped>
-.more-intro {
+.blog-intro {
   padding: 60px 40px;
   color: var(--white);
   font-size: 26px;

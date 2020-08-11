@@ -1,7 +1,7 @@
 <template>
   <section>
     <section class="go-back">
-      <nuxt-link to="/more" class="articles-link">
+      <nuxt-link to="/blog" class="articles-link">
         <i class="material-icons">keyboard_backspace</i> Retour aux articles
       </nuxt-link>
     </section>

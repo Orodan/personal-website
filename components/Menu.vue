@@ -25,9 +25,9 @@
       <p>Contact</p>
     </nuxt-link>
 
-    <nuxt-link to="/more" class="bg-yellow">
-      <i class="material-icons md-48">more</i>
-      <p>More</p>
+    <nuxt-link to="/blog" class="bg-yellow">
+      <i class="material-icons md-48">article</i>
+      <p>Blog</p>
     </nuxt-link>
   </nav>
 </template>
