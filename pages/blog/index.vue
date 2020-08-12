@@ -5,10 +5,14 @@
     </section>
 
     <section class="articles">
-      <div class="card-article" @click="goTo('creating-personal-website-with-nuxt')">
-        <h3>Creating my personal website with Nuxt</h3>
-        <img src="~/assets/nuxt-icon.png" alt="nuxt icon" />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quae sequi amet possimus adipisci ea a ipsa! Ullam atque architecto sint laudantium? Voluptate esse</p>
+      <div v-for="articleSummary of articlesSummaries"
+        :key="articleSummary.slug"
+        class="card-article"
+        @click="goTo(articleSummary.slug)"
+      >
+        <h3>{{ articleSummary.title }}</h3>
+        <img :src="articleSummary.img" :alt="articleSummary.title" />
+        <p>{{ articleSummary.description }}</p>
       </div>
     </section>
   </section>
@@ -17,9 +21,12 @@
 <script>
 export default {
   async asyncData ({ $content }) {
-    const article = await $content('articles', 'creating-personal-website-with-nuxt').fetch()
+    const articlesSummaries = await $content('articles')
+      .only(['title', 'description', 'img', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
 
-    return { article }
+    return { articlesSummaries }
   },
   methods: {
     goTo: function (slug) {
