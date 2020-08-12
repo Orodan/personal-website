@@ -17,7 +17,7 @@ export default {
     const experiences = [
       {
         title: 'My Money Bank',
-        content: '11/2018 - Now | JS developer',
+        content: '11/2018 - Now | Full stack developer',
       },
       {
         title: 'Saint Gobain',
