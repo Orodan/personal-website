@@ -75,12 +75,7 @@ img {
 </style>
 
 <script>
-import AboutMe from "~/components/AboutMe.vue";
-
 export default {
-  components: {
-    AboutMe,
-  },
   data () {
     return {
       title: 'Jimmy Kasprzak | about me',

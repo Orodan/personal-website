@@ -7,7 +7,7 @@
     </section>
 
     <section class="row-2-1">
-      <AboutMe :articleSummary="latestArticleSummary"/>
+      <LatestContent :articleSummary="latestArticleSummary"/>
       <PersonalInfo />
     </section>
 
@@ -20,7 +20,7 @@
 
 <script>
 import Header from "~/components/Header.vue";
-import AboutMe from "~/components/AboutMe.vue";
+import LatestContent from "~/components/LatestContent.vue";
 import PersonalInfo from "~/components/PersonalInfo.vue";
 import ProfessionalExperiencesSummary from "~/components/home/ProfessionalExperiencesSummary.vue";
 import SkillsSummary from "~/components/SkillsSummary.vue";
@@ -29,7 +29,7 @@ import Footer from "~/components/Footer.vue";
 export default {
   components: {
     Header,
-    AboutMe,
+    LatestContent,
     PersonalInfo,
     ProfessionalExperiencesSummary,
     SkillsSummary,
