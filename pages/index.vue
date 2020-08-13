@@ -7,7 +7,7 @@
     </section>
 
     <section class="row-2-1">
-      <AboutMe />
+      <AboutMe :articleSummary="latestArticleSummary"/>
       <PersonalInfo />
     </section>
 
@@ -34,6 +34,14 @@ export default {
     ProfessionalExperiencesSummary,
     SkillsSummary,
     Footer
+  },
+  async asyncData ({ $content }) {
+    const articlesSummaries = await $content('articles')
+      .only(['title', 'description', 'img', 'slug'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
+
+    return { latestArticleSummary: articlesSummaries[0] }
   },
   data () {
     return {

@@ -1,9 +1,19 @@
 <template>
   <section class="about-me">
-    <h2 class="blue">About me</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta, dolor, maxime sit necessitatibus facere possimus distinctio atque eos quidem doloremque iure.</p>
+    <h2 class="blue">Latest content</h2>
 
-    <div class="qualities">
+    <section class="article-summary">
+      <div class="article-summary-content">
+        <h3 class="green">{{ articleSummary.title }}</h3>
+        <p>{{ articleSummary.description }}</p>
+      </div>
+
+      <img :src="articleSummary.img" :alt="articleSummary.title" />
+    </section>
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil soluta, dolor, maxime sit necessitatibus facere possimus distinctio atque eos quidem doloremque iure.</p>
+
+    <!-- <div class="qualities">
       <div class="quality">
         <i class="material-icons md-36 yellow">spa</i>
         <div class="quality-content">
@@ -27,9 +37,20 @@
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat perferendis molestias a dolor dicta accusantium eum, eius tenetur</p>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 </template>
+
+<script>
+export default {
+  props: {
+    articleSummary: {
+      type: Object,
+      default: () => ({})
+    }
+  }
+}
+</script>
 
 <style scoped>
 .about-me {
@@ -40,18 +61,42 @@
 
 h2 {
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-weight: 600;
 }
 
 h3 {
   text-transform: uppercase;
-  line-height: 34px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 p {
   margin-bottom: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.article-summary {
+  display: flex;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.article-summary-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-summary-content p {
+  font-size: 18px;
+}
+
+.article-summary img {
+  width: 200px;
 }
 
 .qualities {
