@@ -6,6 +6,8 @@
   --purple: #8e24aa;
   --orange: #fb8c00;
   --white: #fff;
+  --dark: #212121;
+  --gray: #484848;
 }
 
 .green { color: var(--green); }

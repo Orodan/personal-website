@@ -24,7 +24,7 @@ export default {
 <style scoped>
 header {
   display: flex;
-  color: #eeeeee;
+  color: var(--white);
 }
 
 img {
@@ -50,11 +50,11 @@ h2 {
 
 h1 {
   font-size: 26px;
-  background-color: #484848;
+  background-color: var(--gray);
 }
 
 h2 {
   font-size: 24px;
-  background-color: #212121;
+  background-color: var(--dark);
 }
 </style>
