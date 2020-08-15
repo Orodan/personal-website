@@ -91,4 +91,11 @@ export default {
 .row-2-1 > *:nth-child(2) {
   flex: 1;
 }
+
+@media only screen and (max-width: 768px) {
+  .row-2-1,
+  .row-1-2 {
+    display: block;
+  }
+}
 </style>
