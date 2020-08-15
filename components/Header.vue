@@ -57,4 +57,21 @@ h2 {
   font-size: 24px;
   background-color: var(--dark);
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: block;
+  }
+
+  img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+
+  h1,
+  h2 {
+    margin-left: 200px;
+  }
+}
 </style>
