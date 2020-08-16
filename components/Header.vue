@@ -83,6 +83,8 @@ h2 {
   h1,
   h2 {
     margin-left: 0px;
+    height: 70px;
+    line-height: 70px;
   }
 }
 </style>
