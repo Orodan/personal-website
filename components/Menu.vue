@@ -61,4 +61,18 @@ p {
   bottom: 10px;
 }
 
+@media only screen and (max-width: 425px) {
+  nav > * {
+    height: 70px;
+  }
+
+  i.material-icons {
+    font-size: 32px;
+    top: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
 </style>
