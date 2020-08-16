@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="{ 'sticky': scrolledDown }" ref="navbar">
     <nuxt-link to="/" class="bg-green">
       <i class="material-icons md-48">home</i>
       <p>Home</p>
@@ -32,9 +32,27 @@
   </nav>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      scrolledDown: false
+    }
+  },
+  mounted() {
+    const navbarOffsetTop = this.$refs.navbar.offsetTop
+
+    window.onscroll = () => {
+      this.scrolledDown = window.pageYOffset >= navbarOffsetTop
+    }
+  }
+}
+</script>
+
 <style scoped>
 nav {
   display: flex;
+  z-index: 2;
 }
 
 nav > * {
@@ -73,6 +91,13 @@ p {
 
   p {
     font-size: 10px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
 </style>
