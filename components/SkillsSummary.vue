@@ -48,4 +48,16 @@ h2 {
   margin-bottom: 20px;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 425px) {
+  .skill-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+
+  .skill {
+    padding: 15px;
+  }
+}
 </style>
