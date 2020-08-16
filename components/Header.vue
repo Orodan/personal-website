@@ -74,4 +74,15 @@ h2 {
     margin-left: 200px;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  img {
+    display: none
+  }
+
+  h1,
+  h2 {
+    margin-left: 0px;
+  }
+}
 </style>
