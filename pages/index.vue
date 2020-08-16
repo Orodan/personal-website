@@ -93,6 +93,10 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
+  .self-intro {
+    font-size: 24px;
+  }
+
   .row-2-1,
   .row-1-2 {
     display: block;

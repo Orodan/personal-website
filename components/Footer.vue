@@ -83,4 +83,15 @@ h3 {
 .copyright {
   font-size: 18px;
 }
+
+@media only screen and (max-width: 425px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+}
 </style>
