@@ -72,6 +72,28 @@
 img {
   max-width: 695px;
 }
+
+@media only screen and (max-width: 768px) {
+  .self-intro,
+  .story-content {
+    font-size: 24px;
+  }
+
+  img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  img {
+    display: none;
+  }
+
+  .story {
+    display: block;
+  }
+}
 </style>
 
 <script>
