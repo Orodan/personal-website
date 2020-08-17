@@ -80,6 +80,39 @@
   transform: translateX(-70%);
   text-align: right;
 }
+
+@media only screen and (max-width: 768px) {
+  .experiences {
+    align-items: normal;
+  }
+
+  .experiences:before, .experiences:after {
+    margin-left: 38px;
+  }
+
+  .experience {
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .experience:nth-child(odd) > *,
+  .experience:nth-child(even) > * {
+    transform: translateX(0%);
+    text-align: left;
+  }
+
+  .experience:before, .experience:after {
+    position: absolute;
+    left: 50px;
+    content: '';
+  }
+
+  .experience:after {
+    height: auto;
+    top: -20px;
+    bottom: -20px;
+  }
+}
 </style>
 
 <script>
