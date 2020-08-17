@@ -113,6 +113,32 @@
     bottom: -20px;
   }
 }
+
+@media only screen and (max-width: 425px) {
+  .experiences:before,
+  .experiences:after,
+  .experience:before,
+  .experience:after {
+    display: none;
+  }
+
+  .experiences {
+    padding: 0;
+  }
+
+  .experience {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .experience:first-child {
+    padding-top: 20px;
+  }
+
+  .experience:last-child {
+    padding-bottom: 20px;
+  }
+}
 </style>
 
 <script>
