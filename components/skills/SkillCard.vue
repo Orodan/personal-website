@@ -30,4 +30,10 @@ export default {
   justify-content: center;
   align-items: center;
 }
+
+@media only screen and (max-width: 425px) {
+  .skill-card {
+    margin: 10px;
+  }
+}
 </style>

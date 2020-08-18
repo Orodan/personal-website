@@ -54,7 +54,7 @@
         </div>
       </section>
 
-      <section class="soft-skills-intro ">
+      <section class="soft-skills-intro">
         Because work is not only about tech skills, below you can also find soft skills I value a lot.
       </section>
 
@@ -205,6 +205,33 @@ export default {
   .level-content > section {
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .level-intro {
+    padding: 20px;
+  }
+
+  .soft-skills-intro {
+    padding: 40px;
+  }
+
+  .soft-skills {
+    flex-wrap: wrap;
+    padding: 0 40px 40px 40px;
+  }
+
+  .soft-skill {
+    margin-right: 0;
+  }
+
+  .soft-skill > p {
+    margin-bottom: 20px;
+  }
+
+  .soft-skill:last-child > p {
+    margin-bottom: 0;
   }
 }
 </style>
