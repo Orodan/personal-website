@@ -181,4 +181,30 @@ export default {
 .soft-skill > p {
   margin-top: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  .level {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .level h3 {
+    margin-bottom: 20px;
+  }
+
+  .level.good {
+    flex-direction: column-reverse;
+  }
+
+  .level-content {
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .level-content > section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 </style>
