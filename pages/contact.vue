@@ -96,4 +96,31 @@ img {
   height: 200px;
   border-radius: 50%;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    background: var(--red);
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .right {
+    margin-top: 30px;
+  }
+
+  .labels li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .values li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 </style>
