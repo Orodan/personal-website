@@ -14,6 +14,26 @@
         <img :src="articleSummary.img" :alt="articleSummary.title" />
         <p>{{ articleSummary.description }}</p>
       </div>
+
+      <div v-for="articleSummary of articlesSummaries"
+        :key="articleSummary.slug"
+        class="card-article"
+        @click="goTo(articleSummary.slug)"
+      >
+        <h3>{{ articleSummary.title }}</h3>
+        <img :src="articleSummary.img" :alt="articleSummary.title" />
+        <p>{{ articleSummary.description }}</p>
+      </div>
+
+      <div v-for="articleSummary of articlesSummaries"
+        :key="articleSummary.slug"
+        class="card-article"
+        @click="goTo(articleSummary.slug)"
+      >
+        <h3>{{ articleSummary.title }}</h3>
+        <img :src="articleSummary.img" :alt="articleSummary.title" />
+        <p>{{ articleSummary.description }}</p>
+      </div>
     </section>
   </section>
 </template>
@@ -58,6 +78,7 @@ export default {
   display: flex;
   padding: 60px 40px;
   background-color: var(--white);
+  flex-wrap: wrap;
 }
 
 .card-article {
@@ -84,5 +105,15 @@ export default {
 .card-article img {
   width: 100%;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-intro {
+    font-size: 24px;
+  }
+
+  .articles {
+    padding: 40px 20px;
+  }
 }
 </style>
