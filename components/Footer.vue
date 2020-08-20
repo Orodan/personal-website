@@ -1,13 +1,6 @@
 <template>
   <footer>
-    <section>
-      <h3>Download CV</h3>
-
-      <span class="download-link">English</span>
-      <span class="download-link">French</span>
-    </section>
-
-    <section>
+    <section class="social-medias">
       <h3>Follow me</h3>
 
       <a class="social-link" href="https://twitter.com/JimmyKasprzak" target="__blank">
@@ -20,12 +13,8 @@
         <img class="social-icon" src="~/assets/LI-In-Bug.png" alt="linkedin logo" />
       </a>
     </section>
-
     <section class="copyright">
-      Made with love by Jimmy kasprzak.
-    </section>
-    <section class="copyright">
-      © 2020 Jimmy Kasprzak
+      © 2020 Jimmy Kasprzak - Made with love by Jimmy kasprzak.
     </section>
   </footer>
 </template>
@@ -35,7 +24,7 @@
   display: inline-block;
   height: 35px;
   width: 35px;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer;
 }
 
@@ -49,17 +38,20 @@
 }
 
 footer {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   background-color: #4f4f4f;
   color: #fff;
   padding: 40px;
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 40px;
+}
+
+.social-medias {
+  margin-bottom: 20px;
 }
 
 h3 {
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .download-link {
