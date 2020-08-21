@@ -1,7 +1,7 @@
 <template>
   <section class="contact">
     <section class="left">
-      <img src="~/assets/tiny-rick.jpg" alt="profile picture">
+      <img src="~/assets/me.jpg" alt="profile picture">
     </section>
 
     <section class="right">
@@ -95,6 +95,7 @@ img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 768px) {

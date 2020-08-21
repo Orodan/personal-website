@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img src="~/assets/tiny-rick.jpg" alt="profile picture">
+    <img src="~/assets/me.jpg" alt="profile picture">
 
     <section class="titles">
       <h1>Jimmy Kasprzak</h1>
@@ -30,6 +30,7 @@ header {
 img {
   width: 300px;
   height: 300px;
+  object-fit: cover;
 }
 
 .titles {
