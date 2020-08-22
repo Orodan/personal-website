@@ -19,7 +19,6 @@ export default {
   height: 120px;
   width: 120px;
   background-color: var(--white);
-  margin: 20px 40px;
   border-radius: 50%;
 }
 

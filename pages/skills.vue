@@ -18,31 +18,23 @@
         </div>
 
         <div class="level-content">
-          <section>
-            <SkillCard title="JS" />
-            <SkillCard title="Node.js" />
-            <SkillCard title="Angular" />
-          </section>
-          <section>
-            <SkillCard title="React" />
-            <SkillCard title="Graphql" />
-            <SkillCard title="Typescript" />
-          </section>
+          <SkillCard title="JS" />
+          <SkillCard title="Node.js" />
+          <SkillCard title="Angular" />
+          <SkillCard title="React" />
+          <SkillCard title="Graphql" />
+          <SkillCard title="Typescript" />
         </div>
       </section>
 
       <section class="level good">
         <div class="level-content">
-          <section>
-            <SkillCard title="Java" />
-            <SkillCard title="Spring" />
-            <SkillCard title="Vue.js" />
-          </section>
-          <section>
-            <SkillCard title="Nuxt" />
-            <SkillCard title="Rxjs" />
-            <SkillCard title="Css" />
-          </section>
+          <SkillCard title="Java" />
+          <SkillCard title="Spring" />
+          <SkillCard title="Vue.js" />
+          <SkillCard title="Nuxt" />
+          <SkillCard title="Rxjs" />
+          <SkillCard title="Css" />
         </div>
 
         <div class="level-intro">
@@ -123,6 +115,7 @@ export default {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 
 .level-intro h3 {
@@ -135,14 +128,12 @@ export default {
 }
 
 .level-content {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   padding: 40px;
-  flex-direction: column;
-}
-
-.level-content > section {
-  display: flex;
+  flex: 1;
+  place-items: center;
+  row-gap: 20px;
 }
 
 .skills-intro {
