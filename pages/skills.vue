@@ -176,7 +176,7 @@ export default {
 @media only screen and (max-width: 768px) {
   .level {
     flex-direction: column;
-    padding: 20px;
+    padding: 40px 20px;
   }
 
   .level h3 {
@@ -187,15 +187,12 @@ export default {
     flex-direction: column-reverse;
   }
 
-  .level-content {
-    overflow-x: hidden;
-    flex-wrap: wrap;
-    padding: 0;
+  .level-intro {
+    padding-top: 0;
   }
 
-  .level-content > section {
-    justify-content: center;
-    flex-wrap: wrap;
+  .level-content {
+    padding: 0;
   }
 }
 
