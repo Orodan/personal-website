@@ -198,7 +198,11 @@ export default {
 
 @media only screen and (max-width: 425px) {
   .level-intro {
-    padding: 20px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .level-content {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .soft-skills-intro {
