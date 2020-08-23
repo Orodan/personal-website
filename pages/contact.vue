@@ -12,7 +12,7 @@
         <li><strong>Github:</strong></li>
       </ul>
       <ul class="values">
-        <li><span>john.doe@gmail.com</span></li>
+        <li><span>jimmykasprzakpro@gmail.com</span></li>
         <li><span>Orodan</span></li>
         <li><span>Jimmy Kasprak</span></li>
         <li><span>Oroden</span></li>
@@ -108,6 +108,10 @@ img {
 @media only screen and (max-width: 425px) {
   .contact {
     padding: 40px 20px;
+  }
+
+  strong, span {
+    font-size: 14px;
   }
 
   .right {
