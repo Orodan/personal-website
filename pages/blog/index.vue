@@ -14,26 +14,6 @@
         <img :src="articleSummary.img" :alt="articleSummary.title" />
         <p>{{ articleSummary.description }}</p>
       </div>
-
-      <div v-for="articleSummary of articlesSummaries"
-        :key="articleSummary.slug"
-        class="card-article"
-        @click="goTo(articleSummary.slug)"
-      >
-        <h3>{{ articleSummary.title }}</h3>
-        <img :src="articleSummary.img" :alt="articleSummary.title" />
-        <p>{{ articleSummary.description }}</p>
-      </div>
-
-      <div v-for="articleSummary of articlesSummaries"
-        :key="articleSummary.slug"
-        class="card-article"
-        @click="goTo(articleSummary.slug)"
-      >
-        <h3>{{ articleSummary.title }}</h3>
-        <img :src="articleSummary.img" :alt="articleSummary.title" />
-        <p>{{ articleSummary.description }}</p>
-      </div>
     </section>
   </section>
 </template>
