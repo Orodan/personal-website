@@ -9,10 +9,13 @@ alt: Creating my personal website with nuxt
 
 Welcome to my first blog post using the content module offered by nuxt !  
 
-## Plan
-
-- Découverte de Nuxt
-- Layout
-- Routing dynamique
-- Mode static
-- Nuxt content
+## The project
+## Why Nuxt ?
+## Feedback on ?
+### Dynamic routing
+### Layout
+### Static mode
+### Nuxt content
+## What I appreciated the most ?
+## The biggest struggle I had ?
+## Conclusion
