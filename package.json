@@ -1,8 +1,8 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "jimmy-kasprzak-personal-website",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
-  "author": "Nuxt.js Team",
+  "description": "The personal website of Jimmy Kasprzak. Find experiences, skills and content.",
+  "author": "Jimmy Kasprzak",
   "private": true,
   "scripts": {
     "dev": "nuxt",
