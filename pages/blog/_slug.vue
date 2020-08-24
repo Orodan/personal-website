@@ -14,8 +14,10 @@
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+  async asyncData ({ $content, redirect, params }) {
+    const article = await $content('articles', params.slug).fetch().catch(err => {
+      redirect('/blog')
+    })
 
     return { article }
   },
