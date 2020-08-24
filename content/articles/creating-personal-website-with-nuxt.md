@@ -33,6 +33,19 @@ Do you remember php ? Yes I just said php, please do not be afraid. Nuxt propose
 <br/>
 
 ### Layout
+
+Layout allows you to easily configure to configure the aspect of your app. It places itself one step higher than the pages. In my case, I used it in a very simple way : to display components common to every page without repeting myself :
+
+```js
+<Header />
+
+<Nuxt />
+
+<Footer />
+```
+
+The `<Nuxt />` represents the page you're in, depending on your app and current route.
+
 ### Static mode
 ### Nuxt content
 ## What I appreciated the most ?
