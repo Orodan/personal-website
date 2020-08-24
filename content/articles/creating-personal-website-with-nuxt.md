@@ -60,6 +60,52 @@ One of my favorite feature so far ! I knew my personal website - at least in a f
 <br/>
 
 ### Nuxt content
+<br/>
+
+In my personal website, I wanted one specific feature : the ability to easily write and display blog posts. To do so, I tried one of the latest Nuxt module : @nuxt/content. 
+
+To install this module, it has been as easy as :
+
+<br/>
+
+```
+npm install @nuxt/content
+```
+<br/>
+
+and add the new module in nuxt.config.js :
+
+<br/>
+
+```js
+{
+   modules: [
+      '@nuxt/content'
+   ],
+}
+```
+<br/>
+
+Ok so at this point, the @nuxt/content module is installed. What's next ? Well creating your content. All you have to do is create files in a content directory. @nuxt/content supports all kind of formats (markdown, json, csv, xml). I personally went with markdown as it is a format I'm confortable with. Another thing to note is that, in addition to your content, you can add metadata to your content file. In my case, I added a title, a description and an image.
+
+<br/>
+
+Last step : how to I display the content I just created. First, you got to fetch it. For that, I used the asyncData method available of all pages of a Nuxt app. This method is called when navigating to the matching route and before initializing the component. In this method, you have access to a context object. By adding the @nuxt/content module, this context object is enriched  with a $content property which will help us interact with our content. To fetch a content, it looks like this :
+
+<br/>
+
+```js
+const article = await $content('articles', params.slug).fetch()
+
+return { article }
+```
+
+<br/>
+
+The parameters define the path of the content you're looking for. If no parameters are defined, tt defaults to the root of the content directory of your app. In my case, I created an articles subdirectory to organize my content. So I'm asking for the content inside a subdirectory called articles and named as the slug parameter in my current url.
+
+<br/>
+
 ## What I appreciated the most ?
 ## The biggest struggle I had ?
 ## Conclusion
