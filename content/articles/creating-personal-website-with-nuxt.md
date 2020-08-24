@@ -33,8 +33,11 @@ Do you remember php ? Yes I just said php, please do not be afraid. Nuxt propose
 <br/>
 
 ### Layout
+<br/>
 
 Layout allows you to easily configure to configure the aspect of your app. It places itself one step higher than the pages. In my case, I used it in a very simple way : to display components common to every page without repeting myself :
+
+<br/>
 
 ```js
 <Header />
@@ -43,10 +46,19 @@ Layout allows you to easily configure to configure the aspect of your app. It pl
 
 <Footer />
 ```
+<br/>
 
-The `<Nuxt />` represents the page you're in, depending on your app and current route.
+The `<Nuxt />` represents the page you're in, depending on your app and current route. It's only one use case of Nuxt layouts, you can easily find more use cases on the Nuxt documentation, such as creating a specific layout according to the resolution (mobile/tablet/desktop) for example.
+
+<br/>
 
 ### Static mode
+<br/>
+
+One of my favorite feature so far ! I knew my personal website - at least in a first version - did not need to request any apis at runtime to display my content. So all my content could be generated at build time. But how could I take advantage of that ? Well the Nuxt static mode does the exact job ! It goes through all your pages and generate all your content, at build time. It also means I could use a static hosting services such as Netlify to host my site.
+
+<br/>
+
 ### Nuxt content
 ## What I appreciated the most ?
 ## The biggest struggle I had ?
