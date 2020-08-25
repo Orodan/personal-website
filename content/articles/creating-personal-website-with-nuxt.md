@@ -113,6 +113,18 @@ I appreciated a lot the simplicity of working with Nuxt. No time lost on complex
 
 ## The biggest struggle I had ?
 
-The biggest struggle I faced on this project was about images.
+The biggest struggle I faced on this project was about loading images. I decided to associate an image to every article I'll write. For the article you're currently reading, my first reflex was to add the image to the assets folder, like every other images of this site. But my image was never found. It turns out, the difference between this image and the other was that my image was loaded dynamically, according to the metadata of the article you're on.
+
+<br/>
+
+```js
+<img :src="articleSummary.img" :alt="articleSummary.title" />
+```
+
+<br/>
+
+Because of that, when Webpack bundles your app, it can not determine that this particular image in your asset is being used. Indeed, it never found an explicit use of it in your app at build time. So it removes it from your final bundle ! I found a simple way to solve it : instead of placing my image in the assets folder, I put it in the static folder. The content in this folder is always part of your final bundle, without build time analysis. I hope this explanation will save save you some struggle time if you meet the same issue.
 
 ## Conclusion
+
+
