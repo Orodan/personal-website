@@ -107,5 +107,12 @@ The parameters define the path of the content you're looking for. If no paramete
 <br/>
 
 ## What I appreciated the most ?
+
+I appreciated a lot the simplicity of working with Nuxt. No time lost on complex configuration or importing a number of libraries. You just get a concise, easy-to-read and working architecture and configuration from the get-go, allowing you to work on your ideas and your content. This also works very well thanks to the clarity of the documentation and the great articles you can find on the nuxt blog section. Big thumb up for that :)
+
+
 ## The biggest struggle I had ?
+
+The biggest struggle I faced on this project was about images.
+
 ## Conclusion
