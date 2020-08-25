@@ -127,4 +127,7 @@ Because of that, when Webpack bundles your app, it can not determine that this p
 
 ## Conclusion
 
-
+What to conclude ? I learned a lot about Nuxt in this project and I loved what I discovered. Nuxt is really easy to get started with. It does not require a lot of experience, even with Vue and allow you to quickly focus on what matters : your ideas. This is something I'm looking for when working with a framework and Nuxt greatly succeeded with it. Also, for the use case of my projects, the amount of features I needed (static mode, @nuxt/content, etc) and quickly available effortlessly was impressive, so I'm glad to have chosen Nuxt.  
+<br/>
+I hope you learn some new stuff with this article and it gave you the desire to create your own personal website and to try out Nuxt !  
+Don't hesitate to let me know what you though after this reading and in the meantime stay safe !
