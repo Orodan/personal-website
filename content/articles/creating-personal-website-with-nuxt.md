@@ -28,14 +28,33 @@ Now that we know why Nuxt, it's time to dive into what I used in Nuxt. Keep in m
 
 <br/>
 
-Do you remember php ? Yes I just said php, please do not be afraid. Nuxt proposes a routing system very similar to what php proposed : based of file names and directory structures. Everything starts with the *pages* directory. Inside, you will place your pages (no kidding). By pages, I mean Vue components linked to a route. But how do I define these routes ? You don't ! When Nuxt builds your project, it looks at the files inside your *pages* directory and generate it for you, based on the names you gave to your files.
+Do you remember php ? Yes I just said php, please do not be afraid. Nuxt has a routing system very similar to what php proposed : based on file names and directory structures.  
+
+Everything starts with the *pages* directory. Inside, you create your files which will be used as pages. By pages, I mean Vue components linked to a route in *vue-router*. But how to define these routes ? Well you don't ! When Nuxt builds your project, it looks inside your *pages* directory and generate it for you, based on the files name.
+
+```js
+pages/
+--| index.vue
+--| contact.vue
+--| blog/
+-----| index.vue
+-----| _slug.vue
+```
+
+What's happening here ?  
+<br/>
+First we have a *index.vue* file. This page will be displayed when navigating on the root of the app. You guessed it, the contact page will be displayed on the */contact* path.  
+<br/>
+Next we have the subdirectory *blog* with an index file. This index page behave the same as the previous one. Il will be displayed on the root but this time of the current directory : `/blog`.  
+<br/>
+Lastly, we have a _slug file. The _slug expression represents a dynamic parameter. It means, whenever I'll navigate to /blog/something, I'll display the _slug page in which I'll have access to a *slug* parameter which value will be (in this example) `something`.
 
 <br/>
 
 ### Layout
 <br/>
 
-Layout allows you to easily configure to configure the aspect of your app. It places itself one step higher than the pages. In my case, I used it in a very simple way : to display components common to every page without repeting myself :
+Layout allows you to easily configure to configure the aspect of your app. It places itself one step higher than pages. In my case, I used it in a very simple way : to display components common to every page without repeating myself :
 
 <br/>
 
@@ -48,14 +67,20 @@ Layout allows you to easily configure to configure the aspect of your app. It pl
 ```
 <br/>
 
-The `<Nuxt />` represents the page you're in, depending on your app and current route. It's only one use case of Nuxt layouts, you can easily find more use cases on the Nuxt documentation, such as creating a specific layout according to the resolution (mobile/tablet/desktop) for example.
+The *<Nuxt />* is replaced by the code of the page you're in, depending on your app and current route. It's only one use case of Nuxt layouts, you can easily find more use cases on the Nuxt documentation, such as creating a specific layout according to the resolution (mobile/tablet/desktop) for example.
 
 <br/>
 
 ### Static mode
 <br/>
 
-One of my favorite feature so far ! I knew my personal website - at least in a first version - did not need to request any apis at runtime to display my content. So all my content could be generated at build time. But how could I take advantage of that ? Well the Nuxt static mode does the exact job ! It goes through all your pages and generate all your content, at build time. It also means I could use a static hosting services such as Netlify to host my site.
+One of my favorite feature so far ! I knew my personal website - at least in a first version - did not need to request any apis at runtime to display my content. So all my content could be generated at build time. But how could I take advantage of that ? Well the Nuxt static mode does the exact job ! It goes through all your pages and generate all your content, at build time. It also means I could use a static hosting services such as Netlify to host my site.  
+<br/>
+How to use the static mode ? Update the nuxt.config.js file with the following property and that's it.  
+<br/>
+```js
+target: 'static'
+```
 
 <br/>
 
