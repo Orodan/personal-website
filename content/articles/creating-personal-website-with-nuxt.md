@@ -7,11 +7,11 @@ alt: Creating my personal website with nuxt
 
 # Creating my personal website with nuxt
 
-Welcome to my first blog post using the content module offered by nuxt ! In this post I'll describe my first real experience with Nuxt.
+Welcome to my first blog post using the content module offered by nuxt ! In this post I'll describe my first real experience with Nuxt creating my personal website.
 
 ## The project
 
-First, the project. My project was something I had in mind for a long time, but never managed to find the time to do : a simple personal website to gain visibility on the web and show a bit of what I do. The confinement in France had one positive impact on me : I got started with this project. I had a rough idea of what I wanted in this website : a resume of what my work experiences and skills ; a list of way to contact me and a blog section where I could start writing.
+First, the project. My project was something I had in mind for a long time, but never managed to find the time to do : a simple personal website to gain visibility on the web and show a bit of what I do. The confinement in France had one positive impact on me : I got started with this project. I had a rough idea of what I wanted in this website : a resume of what I do, my work experiences and skills ; a list of way to contact me and a blog section where I could start writing.
 
 ## Why Nuxt ?  
 
@@ -20,7 +20,7 @@ whole project structure from scratch (and not regret it later at least). And her
 
 ## Feedback on ?  
 
-Now that we know why Nuxt, it's time to dive into what I used in Nuxt. Keep in mind it's opiniated list of some of the main stuff I used. Nuxt is much richer than just that.  
+Now that we know why Nuxt, it's time to dive into what I used in Nuxt. Keep in mind it's an opiniated list of some of the main stuff I used. Nuxt is much richer than just that.  
 
 <br/>
 
@@ -87,9 +87,9 @@ target: 'static'
 ### Nuxt content
 <br/>
 
-In my personal website, I wanted one specific feature : the ability to easily write and display blog posts. To do so, I tried one of the latest Nuxt module : @nuxt/content. 
+I wanted one specific feature : the ability to easily write and display blog posts. To do so, I tried one of the latest Nuxt module : @nuxt/content. 
 
-To install this module, it has been as easy as :
+To install this module, it as easy as :
 
 <br/>
 
@@ -111,11 +111,11 @@ and add the new module in nuxt.config.js :
 ```
 <br/>
 
-Ok so at this point, the @nuxt/content module is installed. What's next ? Well creating your content. All you have to do is create files in a content directory. @nuxt/content supports all kind of formats (markdown, json, csv, xml). I personally went with markdown as it is a format I'm confortable with. Another thing to note is that, in addition to your content, you can add metadata to your content file. In my case, I added a title, a description and an image.
+At this point, the @nuxt/content module is installed. What's next ? Creating your content. All you have to do is create files in a content directory. @nuxt/content supports all kind of formats (markdown, json, csv, xml). I personally went with markdown as it is a format I'm confortable with. Another thing to note is that, in addition to your content, you can add metadata to your content file. In my case, I added a title, a description and an image.
 
 <br/>
 
-Last step : how to I display the content I just created. First, you got to fetch it. For that, I used the asyncData method available of all pages of a Nuxt app. This method is called when navigating to the matching route and before initializing the component. In this method, you have access to a context object. By adding the @nuxt/content module, this context object is enriched  with a $content property which will help us interact with our content. To fetch a content, it looks like this :
+Last step : how to I display the content I just created. First, you have to fetch it. For that, I used the asyncData method available of all pages of a Nuxt app. This method is called when navigating to the matching route and before initializing the component. In this method, you have access to a context object. By adding the @nuxt/content module, this context object is enriched  with a $content property which will help us interact with our content. To fetch a content, it looks like this :
 
 <br/>
 
@@ -127,9 +127,8 @@ return { article }
 
 <br/>
 
-The parameters define the path of the content you're looking for. If no parameters are defined, tt defaults to the root of the content directory of your app. In my case, I created an articles subdirectory to organize my content. So I'm asking for the content inside a subdirectory called articles and named as the slug parameter in my current url.
+The parameters define the path of the content you're looking for. If no parameters are defined, it defaults to the root of the content directory. In my case, I created an *articles* subdirectory to organize my content. So I'm asking for the content inside a subdirectory called articles and named as the slug parameter in my current url.
 
-<br/>
 
 ## What I appreciated the most ?
 
@@ -148,11 +147,11 @@ The biggest struggle I faced on this project was about loading images. I decided
 
 <br/>
 
-Because of that, when Webpack bundles your app, it can not determine that this particular image in your asset is being used. Indeed, it never found an explicit use of it in your app at build time. So it removes it from your final bundle ! I found a simple way to solve it : instead of placing my image in the assets folder, I put it in the static folder. The content in this folder is always part of your final bundle, without build time analysis. I hope this explanation will save save you some struggle time if you meet the same issue.
+Because of that, when Webpack bundles your app, it can not determine that this particular image is being used. Indeed, it never found an explicit use of it in your app at build time. So it removes it from your final bundle ! I found a simple way to solve it : instead of placing my image in the assets folder, I put it in the static folder. The content in this folder is always part of your final bundle, without build time analysis. I hope this explanation will save save you some struggle time if you meet the same issue.
 
 ## Conclusion
 
-What to conclude ? I learned a lot about Nuxt in this project and I loved what I discovered. Nuxt is really easy to get started with. It does not require a lot of experience, even with Vue and allow you to quickly focus on what matters : your ideas. This is something I'm looking for when working with a framework and Nuxt greatly succeeded with it. Also, for the use case of my projects, the amount of features I needed (static mode, @nuxt/content, etc) and quickly available effortlessly was impressive, so I'm glad to have chosen Nuxt.  
+What to conclude ? I learned a lot about Nuxt in this project and I loved what I discovered. Nuxt is really easy to get started with. It does not require a lot of experience, even with Vue and allows you to quickly focus on what matters : your ideas. This is something I'm looking for when working with a framework and Nuxt greatly succeeded with it. Also, for the use case of my projects, the amount of features I needed (static mode, @nuxt/content, etc) and quickly available effortlessly was impressive, so I'm glad to have chosen Nuxt.  
 <br/>
 I hope you learn some new stuff with this article and it gave you the desire to create your own personal website and to try out Nuxt !  
 Don't hesitate to let me know what you though after this reading and in the meantime stay safe !
