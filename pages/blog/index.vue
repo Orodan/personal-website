@@ -4,7 +4,7 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore et. Explicabo at sequi eius numquam veritatis, necessitatibus iste consectetur distinctio sunt eum laborum illo eaque assumenda quo culpa illum!
     </section>
 
-    <section class="articles">
+    <!-- <section class="articles">
       <div v-for="articleSummary of articlesSummaries"
         :key="articleSummary.slug"
         class="card-article"
@@ -14,7 +14,7 @@
         <img :src="articleSummary.img" :alt="articleSummary.title" />
         <p>{{ articleSummary.description }}</p>
       </div>
-    </section>
+    </section> -->
   </section>
 </template>
 
