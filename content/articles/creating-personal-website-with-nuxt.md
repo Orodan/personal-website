@@ -13,6 +13,10 @@ Welcome to my first blog post using the content module offered by Nuxt.js! In th
 
 First, the project. My project was something I had in mind for a long time, but never managed to find the time to do: a simple personal website to gain visibility on the web and show a bit of what I do. Thanks to the lockdown in France I got started with this project. I had a rough idea of what I wanted in this website: a summary of what I do, my work experiences and skills; the different ways to contact me and a blog section where I could start writing.
 
+<div class="article-image-container">
+  <img src="/personal-website.png">
+</div>
+
 ## Why Nuxt.js?
 
 One thing to know about me is that I love front-end development. I already have a bit of real-world experiences with Angular and React, so I wanted to try Vue.js on a real project which goes a bit beyond classical tutorials (being a big fan of learning by doing). At the same time, I knew I wasn't good enough with Vue.js to create a whole project structure from scratch (without regretting it later at least). And here comes Nuxt.js and the very first advantage I saw in this framework. Starting a project with Nuxt.js is very simple and it takes care of all the set up pain for you. It allowed me to focus on developing and creating content from the get-go. I also knew a bit about what Nuxt.js opinions and features were so I knew I could make my project with it.
@@ -131,6 +135,10 @@ return { article }
 
 The parameters define the path of the content you're looking for. If no parameters are defined, it defaults to the root of the content directory. In my case, I created an articles subdirectory to organize my content. So I'm asking for the content inside a subdirectory called articles and named as the slug parameter in my current url.
 
+
+<div class="article-image-container">
+	<img src="/blog.png" />
+</div>
 
 ## What I appreciated the most?
 
