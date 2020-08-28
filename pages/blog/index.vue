@@ -6,7 +6,7 @@
       Here you can find all the articles I've written so far. I hope you learn something interesting :)
     </section>
 
-    <section class="articles">
+    <!-- <section class="articles">
       <div v-for="articleSummary of articlesSummaries"
         :key="articleSummary.slug"
         class="card-article"
@@ -16,7 +16,7 @@
         <img :src="articleSummary.img" :alt="articleSummary.title" />
         <p>{{ articleSummary.description }}</p>
       </div>
-    </section>
+    </section> -->
   </section>
 </template>
 
