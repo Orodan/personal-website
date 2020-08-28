@@ -1,7 +1,9 @@
 <template>
   <section>
     <section class="blog-intro">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolore et. Explicabo at sequi eius numquam veritatis, necessitatibus iste consectetur distinctio sunt eum laborum illo eaque assumenda quo culpa illum!
+      Welcome to my blog !
+      <br/>
+      Here you can find all the articles I've written so far. I hope you learn something interesting :)
     </section>
 
     <section class="articles">
