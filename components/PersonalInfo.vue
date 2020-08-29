@@ -5,7 +5,7 @@
     <ul>
       <li><strong>Name:</strong> <span>Jimmy Kasprzak</span></li>
       <li><strong>Birth date:</strong> <span>10/11/1993</span></li>
-      <li><strong>email:</strong> <span>john.doe@gmail.com</span></li>
+      <li><strong>email:</strong> <span>jimmykasprzakpro@gmail.com</span></li>
       <li><strong>City:</strong> <span>Nantes</span></li>
       <li><strong>Country:</strong> <span>France</span></li>
     </ul>
