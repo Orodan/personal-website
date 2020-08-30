@@ -1,12 +1,12 @@
 <template>
   <section>
-    <section class="blog-intro">
+    <section class="intro white bg-yellow">
       Welcome to my blog !
       <br/>
       Here you can find all the articles I've written so far. I hope you learn something interesting :)
     </section>
 
-    <!-- <section class="articles">
+    <section class="articles">
       <div v-for="articleSummary of articlesSummaries"
         :key="articleSummary.slug"
         class="card-article"
@@ -16,7 +16,7 @@
         <img :src="articleSummary.img" :alt="articleSummary.title" />
         <p>{{ articleSummary.description }}</p>
       </div>
-    </section> -->
+    </section>
   </section>
 </template>
 
@@ -49,13 +49,6 @@ export default {
 </script>
 
 <style scoped>
-.blog-intro {
-  padding: 60px 40px;
-  color: var(--white);
-  font-size: 26px;
-  background-color: var(--yellow);
-}
-
 .articles {
   display: flex;
   padding: 60px 40px;
@@ -90,10 +83,6 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-  .blog-intro {
-    font-size: 24px;
-  }
-
   .articles {
     padding: 40px 20px;
   }

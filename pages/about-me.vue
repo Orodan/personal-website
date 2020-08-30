@@ -1,6 +1,6 @@
 <template>
   <section>
-    <section class="self-intro">
+    <section class="intro white bg-blue">
       Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
       <br/>
       I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
@@ -43,13 +43,6 @@
 </template>
 
 <style scoped>
-.self-intro {
-  padding: 60px 40px;
-  color: #fff;
-  font-size: 26px;
-  background-color: var(--blue);
-}
-
 .story {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -74,7 +67,6 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  .self-intro,
   .story-content {
     font-size: 24px;
   }

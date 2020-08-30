@@ -1,6 +1,6 @@
 <template>
   <section class="index-page">
-    <section class="self-intro">
+    <section class="intro white bg-green">
       Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
       <br/>
       I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
@@ -57,13 +57,6 @@ export default {
 </script>
 
 <style scoped>
-.self-intro {
-  padding: 60px 40px;
-  color: #fff;
-  font-size: 26px;
-  background-color: var(--green);
-}
-
 .index-page {
   flex: 1;
 }
@@ -93,10 +86,6 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-  .self-intro {
-    font-size: 24px;
-  }
-
   .row-2-1,
   .row-1-2 {
     display: block;
