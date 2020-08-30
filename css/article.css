@@ -6,3 +6,12 @@
 .nuxt-content h2 {
   margin: 20px 0;
 }
+
+.nuxt-content .article-image-container {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.nuxt-content .article-image-container img {
+  width: 100%;
+}
