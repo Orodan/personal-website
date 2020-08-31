@@ -133,7 +133,11 @@ return { article }
 
 <br/>
 
-The parameters define the path of the content you're looking for. If no parameters are defined, it defaults to the root of the content directory. In my case, I created an articles subdirectory to organize my content. So I'm asking for the content inside a subdirectory called articles and named as the slug parameter in my current url.
+The parameters define the path of the content you're looking for. If no parameters are defined, it defaults to the root of the content directory. In my case, I created an articles subdirectory to organize my content. So I'm asking for the content inside a subdirectory called articles and named as the slug parameter in my current url.  
+
+<br/>
+
+Here is what my blog page looks like :
 
 
 <div class="article-image-container">
