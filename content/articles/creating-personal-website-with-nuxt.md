@@ -137,7 +137,7 @@ The parameters define the path of the content you're looking for. If no paramete
 
 <br/>
 
-Here is what my blog page looks like :
+Here is what my blog introduction page looks like :
 
 
 <div class="article-image-container">
