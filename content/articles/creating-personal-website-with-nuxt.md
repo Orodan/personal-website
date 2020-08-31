@@ -159,12 +159,6 @@ The biggest struggle I faced on this project was about images loading. I decided
 
 <br/>
 
-```js
-<img :src="articleSummary.img" :alt="articleSummary.title" />
-```
-
-<br/>
-
 Because of that, when Webpack bundles your app, it can not determine that this particular image is being used. Indeed, it never found an explicit use of it in your app at build time. So it removes it from your final bundle! One way to solve it was to put the image in the **static** folder instead of the **assets** folder. The content in this folder is always part of your final bundle, without build time analysis. I hope this explanation will save you some struggle time if you meet the same issue.  
 
 ## Conclusion
