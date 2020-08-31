@@ -14,7 +14,7 @@ Welcome to my first blog post using the content module offered by Nuxt.js! In th
 First, the project. My project was something I had in mind for a long time, but never managed to find the time to do: a simple personal website to gain visibility on the web and show a bit of what I do. Thanks to the lockdown in France I got started with this project. I had a rough idea of what I wanted in this website: a summary of what I do, my work experiences and skills; the different ways to contact me and a blog section where I could start writing.
 
 <div class="article-image-container">
-  <img src="/personal-website.png">
+  <img src="/site-combined.png">
 </div>
 
 ## Why Nuxt.js?
