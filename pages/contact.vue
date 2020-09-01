@@ -15,7 +15,7 @@
         <li><span>jimmykasprzakpro@gmail.com</span></li>
         <li><span>@Jimmykasprzak</span></li>
         <li><span>Jimmy Kasprak</span></li>
-        <li><span>Oroden</span></li>
+        <li><span>Orodan</span></li>
       </ul>
     </section>
 
