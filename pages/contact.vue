@@ -13,7 +13,7 @@
       </ul>
       <ul class="values">
         <li><span>jimmykasprzakpro@gmail.com</span></li>
-        <li><span>Orodan</span></li>
+        <li><span>@Jimmykasprzak</span></li>
         <li><span>Jimmy Kasprak</span></li>
         <li><span>Oroden</span></li>
       </ul>
