@@ -65,5 +65,9 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {}
+  },
+
+  generate: {
+    routes: ['/blog/creating-personal-website-with-nuxt']
   }
 };
