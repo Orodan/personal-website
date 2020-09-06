@@ -1,10 +1,10 @@
 <template>
   <section>
-    <section class="intro white bg-yellow">
+    <Intro class="white bg-yellow">
       Welcome to my blog !
       <br/>
       Here you can find all the articles I've written so far. I hope you learn something interesting :)
-    </section>
+    </Intro>
 
     <section class="articles">
       <div v-for="articleSummary of articlesSummaries"
@@ -21,7 +21,12 @@
 </template>
 
 <script>
+import Intro from "~/components/Intro.vue";
+
 export default {
+  components: {
+    Intro
+  },
   async asyncData ({ $content }) {
     const articlesSummaries = await $content('articles')
       .only(['title', 'description', 'img', 'slug'])

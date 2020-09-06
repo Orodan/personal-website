@@ -1,10 +1,10 @@
 <template>
   <section>
-    <section class="intro white bg-blue">
+    <Intro class="white bg-blue">
       Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
       <br/>
       I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
-    </section>
+    </Intro>
 
     <section class="story">
       <div class="story-picture">
@@ -41,6 +41,26 @@
     </section>
   </section>
 </template>
+
+<script>
+import Intro from "~/components/Intro.vue";
+
+export default {
+  components: {
+    Intro
+  },
+  data () {
+    return {
+      title: 'Jimmy Kasprzak | about me',
+    }
+  },
+  head () {
+    return {
+      title: this.title,
+    }
+  }
+}
+</script>
 
 <style scoped>
 .story {
@@ -87,18 +107,3 @@ img {
   }
 }
 </style>
-
-<script>
-export default {
-  data () {
-    return {
-      title: 'Jimmy Kasprzak | about me',
-    }
-  },
-  head () {
-    return {
-      title: this.title,
-    }
-  }
-};
-</script>

@@ -1,10 +1,10 @@
 <template>
   <section class="index-page">
-    <section class="intro white bg-green">
+    <Intro class="white bg-green">
       Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
       <br/>
       I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
-    </section>
+    </Intro>
 
     <section class="row-2-1">
       <LatestContent :articleSummary="latestArticleSummary"/>
@@ -19,21 +19,19 @@
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
 import LatestContent from "~/components/LatestContent.vue";
 import PersonalInfo from "~/components/PersonalInfo.vue";
 import ProfessionalExperiencesSummary from "~/components/home/ProfessionalExperiencesSummary.vue";
 import SkillsSummary from "~/components/SkillsSummary.vue";
-import Footer from "~/components/Footer.vue";
+import Intro from "~/components/Intro.vue";
 
 export default {
   components: {
-    Header,
     LatestContent,
     PersonalInfo,
     ProfessionalExperiencesSummary,
     SkillsSummary,
-    Footer
+    Intro
   },
   async asyncData ({ $content }) {
     const articlesSummaries = await $content('articles')

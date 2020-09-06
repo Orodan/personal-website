@@ -1,11 +1,11 @@
 <template>
   <section>
-    <section class="skills-intro">
+    <Intro class="bg-white">
       In this page, you can find skills (both tech and soft) I like to use at the moment.
       <br />
       This is non-exhaustive, completly subjective, but it allows you to know very quickly what my tech interests and competences are at the moment. If you want more details on my experience
       on the listed skills, check out my work page :).
-    </section>
+    </Intro>
 
     <section class="diamonds-container">
       <section class="level expert">
@@ -72,10 +72,12 @@
 
 <script>
 import SkillCard from "~/components/skills/SkillCard.vue";
+import Intro from "~/components/Intro.vue";
 
 export default {
   components: {
-    SkillCard
+    SkillCard,
+    Intro
   },
   data: () => {
     return {
@@ -134,12 +136,6 @@ export default {
   flex: 1;
   place-items: center;
   row-gap: 20px;
-}
-
-.skills-intro {
-  padding: 60px 40px;
-  font-size: 24px;
-  background-color: var(--white);
 }
 
 .soft-skills-intro {
