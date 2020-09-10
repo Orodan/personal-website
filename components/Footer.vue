@@ -40,8 +40,8 @@
 footer {
   display: flex;
   flex-direction: column;
-  background-color: #4f4f4f;
-  color: #fff;
+  background-color: var(--footer-bg);
+  color: var(--white);
   padding: 40px;
 }
 
@@ -52,20 +52,6 @@ footer {
 h3 {
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.download-link {
-  padding: 10px 20px;
-  border-radius: 3px;
-  background-color: #7f7f7f;
-  color: #efefef;
-  margin-right: 10px;
-  cursor: pointer;
-  transition: .3s;
-}
-
-.download-link:hover {
-  background-color: var(--blue);
 }
 
 .material-icons {
