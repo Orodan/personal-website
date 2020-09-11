@@ -13,9 +13,9 @@
       </ul>
       <ul class="values">
         <li><span>jimmykasprzakpro@gmail.com</span></li>
-        <li><span>@Jimmykasprzak</span></li>
-        <li><span>Jimmy Kasprak</span></li>
-        <li><span>Orodan</span></li>
+        <li><span><a target="__blank" href="https://twitter.com/JimmyKasprzak">@Jimmykasprzak</a></span></li>
+        <li><span><a target="__blank" href="https://www.linkedin.com/in/jimmy-kasprzak">Jimmy Kasprak</a></span></li>
+        <li><span><a target="__blank" href="https://github.com/Orodan">Orodan</a></span></li>
       </ul>
     </section>
 
@@ -96,6 +96,11 @@ img {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 @media only screen and (max-width: 768px) {
