@@ -13,9 +13,9 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@nuxt/content": "^1.6.0",
-    "@nuxt/http": "^0.4.0",
-    "nuxt": "^2.14.0",
+    "@nuxt/content": "^1.8.1",
+    "@nuxt/http": "^0.5.12",
+    "nuxt": "^2.14.5",
     "reqlim": "^0.0.0"
   }
 }

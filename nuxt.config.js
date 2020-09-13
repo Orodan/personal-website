@@ -1,10 +1,5 @@
 export default {
   target: 'static',
-  /*
-  ** Rendering mode
-  ** Doc: https://nuxtjs.org/api/configuration-mode
-  */
-  mode: 'universal',
 
   /*
   ** Headers of the page
