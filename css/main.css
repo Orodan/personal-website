@@ -8,7 +8,7 @@
   --white: #fff;
   --dark: #212121;
   --gray: #484848;
-  --footer-bg: #4f4f4f;
+  --light-dark: #4f4f4f;
 }
 
 .green { color: var(--green); }

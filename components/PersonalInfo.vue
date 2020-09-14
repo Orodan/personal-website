@@ -1,6 +1,6 @@
 <template>
   <section class="personal-info">
-    <h2 class="orange">Personal Info</h2>
+    <h2 class="yellow">Personal Info</h2>
 
     <ul>
       <li><strong>Name:</strong> <span>Jimmy Kasprzak</span></li>
@@ -15,8 +15,8 @@
 <style scoped>
 .personal-info {
   padding: 40px;
-  color: black;
-  background-color: #f5f5f5;
+  color: var(--white);
+  background-color: var(--light-dark);
 }
 
 h2 {

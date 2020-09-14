@@ -40,7 +40,7 @@
 footer {
   display: flex;
   flex-direction: column;
-  background-color: var(--footer-bg);
+  background-color: var(--light-dark);
   color: var(--white);
   padding: 40px;
 }
