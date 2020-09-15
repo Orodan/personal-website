@@ -2,13 +2,15 @@
   <section class="skills">
     <h2>Skills</h2>
 
-    <section class="skill-list">
-      <div class="skill">Javascript</div>
-      <div class="skill">Typescript</div>
-      <div class="skill">Angular</div>
-      <div class="skill">React</div>
-      <div class="skill">Vuejs</div>
-      <div class="skill">Java</div>
+    <section class="skill-list-container">
+      <section class="skill-list">
+        <div class="skill">Javascript</div>
+        <div class="skill">Typescript</div>
+        <div class="skill">Angular</div>
+        <div class="skill">React</div>
+        <div class="skill">Vuejs</div>
+        <div class="skill">Java</div>
+      </section>
     </section>
   </section>
 </template>
@@ -18,6 +20,15 @@
   background-color: var(--blue);
   padding: 40px;
   color: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-list-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
 }
 
 .skill-list {
@@ -25,6 +36,7 @@
   grid-template-columns: repeat(3, 1fr);
   column-gap: 20px;
   row-gap: 20px;
+  width: 100%;
 }
 
 .skill {
