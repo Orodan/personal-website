@@ -72,7 +72,7 @@
 
 <script>
 import SkillCard from "~/components/skills/SkillCard.vue";
-import Intro from "~/components/Intro.vue";
+import Intro from "~/components/common/Intro.vue";
 
 export default {
   components: {

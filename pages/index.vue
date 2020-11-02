@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import LatestContent from "~/components/LatestContent.vue";
-import PersonalInfo from "~/components/PersonalInfo.vue";
+import LatestContent from "~/components/home/LatestContent.vue";
+import PersonalInfo from "~/components/home/PersonalInfo.vue";
 import ProfessionalExperiencesSummary from "~/components/home/ProfessionalExperiencesSummary.vue";
-import SkillsSummary from "~/components/SkillsSummary.vue";
-import Intro from "~/components/Intro.vue";
+import SkillsSummary from "~/components/home/SkillsSummary.vue";
+import Intro from "~/components/common/Intro.vue";
 
 export default {
   components: {

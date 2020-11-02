@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import Intro from "~/components/Intro.vue";
+import Intro from "~/components/common/Intro.vue";
 
 export default {
   components: {
