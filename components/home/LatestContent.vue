@@ -22,11 +22,11 @@ export default {
     },
   },
   methods: {
-    goTo: function (slug) {
-      this.$router.push({ name: "blog-slug", params: { slug } });
+    goTo(slug) {
+      this.$router.push({ name: 'blog-slug', params: { slug } })
     },
   },
-};
+}
 </script>
 
 <style scoped>

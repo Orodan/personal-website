@@ -1,5 +1,5 @@
 <template>
-  <nav :class="{ sticky: scrolledDown }" ref="navbar">
+  <nav ref="navbar" :class="{ sticky: scrolledDown }">
     <nuxt-link to="/" class="bg-green">
       <i class="material-icons md-48">home</i>
       <p>Home</p>
@@ -37,16 +37,16 @@ export default {
   data() {
     return {
       scrolledDown: false,
-    };
+    }
   },
   mounted() {
-    const navbarOffsetTop = this.$refs.navbar.offsetTop;
+    const navbarOffsetTop = this.$refs.navbar.offsetTop
 
     window.onscroll = () => {
-      this.scrolledDown = window.pageYOffset >= navbarOffsetTop;
-    };
+      this.scrolledDown = window.pageYOffset >= navbarOffsetTop
+    }
   },
-};
+}
 </script>
 
 <style scoped>

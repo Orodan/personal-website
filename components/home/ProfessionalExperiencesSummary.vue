@@ -16,12 +16,16 @@ export default {
   data: () => {
     const experiences = [
       {
-        title: "My Money Bank",
-        content: "11/2018 - Now | Full stack developer",
+        title: "Concordia University, Montreal, QC",
+        content: "09/2018 - 10/2020 | Graduate Research Assistant",
       },
       {
-        title: "Saint Gobain",
-        content: "01/2018 - 09/2018 | Full stack developer",
+        title: "ZTE Corporation (Bangladesh) Limited",
+        content: "11/2017 - 08/2018 | Technical Account Manager",
+      },
+      {
+        title: "Huawei Technologies (Bangladesh) Limited",
+        content: "09/2014 - 11/2017 | Solutions Engineer",
       },
     ];
 

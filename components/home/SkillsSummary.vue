@@ -4,12 +4,12 @@
 
     <section class="skill-list-container">
       <section class="skill-list">
-        <div class="skill">Javascript</div>
-        <div class="skill">Typescript</div>
-        <div class="skill">Angular</div>
-        <div class="skill">React</div>
-        <div class="skill">Vuejs</div>
+        <div class="skill">C++</div>
+        <div class="skill">Go</div>
         <div class="skill">Java</div>
+        <div class="skill">TypeScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Vuejs</div>
       </section>
     </section>
   </section>

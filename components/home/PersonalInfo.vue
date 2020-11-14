@@ -3,11 +3,11 @@
     <h2 class="yellow">Personal Info</h2>
 
     <ul>
-      <li><strong>Name:</strong> <span>Jimmy Kasprzak</span></li>
-      <li><strong>Birth date:</strong> <span>10/11/1993</span></li>
-      <li><strong>email:</strong> <span>jimmykasprzakpro@gmail.com</span></li>
-      <li><strong>City:</strong> <span>Nantes</span></li>
-      <li><strong>Country:</strong> <span>France</span></li>
+      <li><strong>Name:</strong> <span>Mohammad Ishfaque Jahan Rafee</span></li>
+      <li><strong>Email:</strong> <span>mij.rafee.1344@gmail.com</span></li>
+      <li><strong>City:</strong> <span>Edmonton</span></li>
+      <li><strong>Province:</strong> <span>Alberta</span></li>
+      <li><strong>Country:</strong> <span>Canada</span></li>
     </ul>
   </section>
 </template>
@@ -38,6 +38,6 @@ li {
 
 li > span {
   position: absolute;
-  left: 50%;
+  left: 30%;
 }
 </style>

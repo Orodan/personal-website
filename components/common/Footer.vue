@@ -2,19 +2,7 @@
   <footer>
     <section class="social-medias">
       <h3>Follow me</h3>
-
-      <a
-        class="social-link"
-        href="https://twitter.com/JimmyKasprzak"
-        target="__blank"
-      >
-        <img
-          class="social-icon"
-          src="~/assets/Twitter_Logo_WhiteOnBlue.png"
-          alt="twitter logo"
-        />
-      </a>
-      <a class="social-link" href="https://github.com/Orodan" target="__blank">
+      <a class="social-link" href="https://github.com/rafee" target="__blank">
         <img
           class="social-icon"
           src="~/assets/GitHub-Mark-Light-64px.png"
@@ -23,7 +11,7 @@
       </a>
       <a
         class="social-link linkedin"
-        href="https://www.linkedin.com/in/jimmy-kasprzak/"
+        href="https://www.linkedin.com/in/rafee1344/"
         target="__blank"
       >
         <img
@@ -34,7 +22,8 @@
       </a>
     </section>
     <section class="copyright">
-      © 2020 Jimmy Kasprzak - Made with love by Jimmy kasprzak.
+      © 2020 Mohammad Ishfaque Jahan Rafee - Made with love by Mohammad Ishfaque
+      Jahan Rafee.
     </section>
   </footer>
 </template>

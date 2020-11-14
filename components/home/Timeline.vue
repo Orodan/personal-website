@@ -19,7 +19,7 @@
 
 .experience:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 11px;
   width: 11px;
   left: 5px;
@@ -32,7 +32,7 @@
 
 .experience:after {
   position: absolute;
-  content: "";
+  content: '';
   height: 100%;
   width: 1px;
   left: 10px;
@@ -48,7 +48,8 @@ export default {
   props: {
     experiences: {
       type: Array,
+      required: true,
     },
   },
-};
+}
 </script>

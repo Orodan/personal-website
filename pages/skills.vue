@@ -97,8 +97,8 @@
 </template>
 
 <script>
-import SkillCard from "~/components/skills/SkillCard.vue";
-import Intro from "~/components/common/Intro.vue";
+import SkillCard from '~/components/skills/SkillCard.vue'
+import Intro from '~/components/common/Intro.vue'
 
 export default {
   components: {
@@ -107,15 +107,15 @@ export default {
   },
   data: () => {
     return {
-      title: "Jimmy Kasprzak | skills",
-    };
+      title: 'Mohammad Ishfaque Jahan Rafee | skills',
+    }
   },
   head() {
     return {
       title: this.title,
-    };
+    }
   },
-};
+}
 </script>
 
 <style scoped>

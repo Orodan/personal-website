@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import ProfessionalExperiences from "~/components/work/ProfessionalExperiences.vue";
+import ProfessionalExperiences from '~/components/work/ProfessionalExperiences.vue'
 
 export default {
   components: {
@@ -11,13 +11,13 @@ export default {
   },
   data() {
     return {
-      title: "Jimmy Kasprzak | work",
-    };
+      title: 'Mohammad Ishfaque Jahan Rafee | work',
+    }
   },
   head() {
     return {
       title: this.title,
-    };
+    }
   },
-};
+}
 </script>

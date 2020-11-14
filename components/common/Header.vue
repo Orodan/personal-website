@@ -3,21 +3,21 @@
     <img src="~/assets/me.jpg" alt="profile picture" />
 
     <section class="titles">
-      <h1>Jimmy Kasprzak</h1>
-      <h2>Developer - trainer</h2>
+      <h1>Mohammad Ishfaque Jahan Rafee</h1>
+      <h2>Network and Web Developer</h2>
       <Menu />
     </section>
   </header>
 </template>
 
 <script>
-import Menu from "~/components/common/Menu.vue";
+import Menu from '~/components/common/Menu.vue'
 
 export default {
   components: {
     Menu,
   },
-};
+}
 </script>
 
 <style scoped>

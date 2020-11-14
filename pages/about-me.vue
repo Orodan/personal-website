@@ -54,7 +54,7 @@
 </template>
 
 <script>
-import Intro from "~/components/common/Intro.vue";
+import Intro from '~/components/common/Intro.vue'
 
 export default {
   components: {
@@ -62,15 +62,15 @@ export default {
   },
   data() {
     return {
-      title: "Jimmy Kasprzak | about me",
-    };
+      title: 'Mohammad Ishfaque Jahan Rafee | about me',
+    }
   },
   head() {
     return {
       title: this.title,
-    };
+    }
   },
-};
+}
 </script>
 
 <style scoped>

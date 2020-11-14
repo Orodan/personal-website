@@ -7,33 +7,27 @@
     <section class="right">
       <ul class="labels">
         <li><strong>Mail:</strong></li>
-        <li><strong>Twitter:</strong></li>
         <li><strong>Linkedin:</strong></li>
         <li><strong>Github:</strong></li>
       </ul>
       <ul class="values">
-        <li><span>jimmykasprzakpro@gmail.com</span></li>
         <li>
           <span
-            ><a target="__blank" href="https://twitter.com/JimmyKasprzak"
-              >@Jimmykasprzak</a
+            ><a target="__blank" href="mailto:mij.rafee.1344@gmail.com"
+              >mij.rafee.1344@gmail.com</a
             ></span
           >
         </li>
         <li>
           <span
-            ><a
-              target="__blank"
-              href="https://www.linkedin.com/in/jimmy-kasprzak"
-              >Jimmy Kasprak</a
+            ><a target="__blank" href="https://www.linkedin.com/in/rafee1344"
+              >Mohammad Ishfaque Jahan Rafee</a
             ></span
           >
         </li>
         <li>
           <span
-            ><a target="__blank" href="https://github.com/Orodan"
-              >Orodan</a
-            ></span
+            ><a target="__blank" href="https://github.com/rafee">rafee</a></span
           >
         </li>
       </ul>
@@ -45,15 +39,15 @@
 export default {
   data() {
     return {
-      title: "Jimmy Kasprzak | contact",
-    };
+      title: 'Mohammad Ishfaque Jahan Rafee | contact',
+    }
   },
   head() {
     return {
       title: this.title,
-    };
+    }
   },
-};
+}
 </script>
 
 <style scoped>
