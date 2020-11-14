@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-rafeeme-dev-112453-authRole",
-      "UnauthRoleArn": "arn:aws:iam::726844639590:role/amplify-rafeeme-dev-112453-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::726844639590:role/amplify-rafeeme-dev-112453-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-rafeeme-dev-112453-deployment",
-      "UnauthRoleName": "amplify-rafeeme-dev-112453-unauthRole",
-      "StackName": "amplify-rafeeme-dev-112453",
-      "StackId": "arn:aws:cloudformation:us-east-1:726844639590:stack/amplify-rafeeme-dev-112453/b31a6450-26a6-11eb-ad7c-0a3238f55eb3",
-      "AmplifyAppId": "d2jqvktfjwm626"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-rafeeme-dev-112453-authRole",
+            "UnauthRoleArn": "arn:aws:iam::726844639590:role/amplify-rafeeme-dev-112453-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::726844639590:role/amplify-rafeeme-dev-112453-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-rafeeme-dev-112453-deployment",
+            "UnauthRoleName": "amplify-rafeeme-dev-112453-unauthRole",
+            "StackName": "amplify-rafeeme-dev-112453",
+            "StackId": "arn:aws:cloudformation:us-east-1:726844639590:stack/amplify-rafeeme-dev-112453/b31a6450-26a6-11eb-ad7c-0a3238f55eb3",
+            "AmplifyAppId": "d2jqvktfjwm626"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2jqvktfjwm626",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
