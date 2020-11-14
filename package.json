@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.10.0",
-    "nuxt": "^2.14.7",
-    "reqlim": "^0.0.0"
+    "nuxt": "^2.14.7"
   }
 }
