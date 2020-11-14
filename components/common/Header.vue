@@ -1,13 +1,12 @@
 <template>
   <header>
-    <img src="~/assets/me.jpg" alt="profile picture">
+    <img src="~/assets/me.jpg" alt="profile picture" />
 
     <section class="titles">
       <h1>Jimmy Kasprzak</h1>
       <h2>Developer - trainer</h2>
       <Menu />
     </section>
-
   </header>
 </template>
 
@@ -16,8 +15,8 @@ import Menu from "~/components/common/Menu.vue";
 
 export default {
   components: {
-    Menu
-  }
+    Menu,
+  },
 };
 </script>
 
@@ -78,7 +77,7 @@ h2 {
 
 @media only screen and (max-width: 425px) {
   img {
-    display: none
+    display: none;
   }
 
   h1,

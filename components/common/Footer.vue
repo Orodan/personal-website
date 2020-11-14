@@ -3,14 +3,34 @@
     <section class="social-medias">
       <h3>Follow me</h3>
 
-      <a class="social-link" href="https://twitter.com/JimmyKasprzak" target="__blank">
-        <img class="social-icon" src="~/assets/Twitter_Logo_WhiteOnBlue.png" alt="twitter logo" />
+      <a
+        class="social-link"
+        href="https://twitter.com/JimmyKasprzak"
+        target="__blank"
+      >
+        <img
+          class="social-icon"
+          src="~/assets/Twitter_Logo_WhiteOnBlue.png"
+          alt="twitter logo"
+        />
       </a>
       <a class="social-link" href="https://github.com/Orodan" target="__blank">
-        <img class="social-icon" src="~/assets/GitHub-Mark-Light-64px.png" alt="github logo" />
+        <img
+          class="social-icon"
+          src="~/assets/GitHub-Mark-Light-64px.png"
+          alt="github logo"
+        />
       </a>
-      <a class="social-link linkedin" href="https://www.linkedin.com/in/jimmy-kasprzak/" target="__blank">
-        <img class="social-icon" src="~/assets/LI-In-Bug.png" alt="linkedin logo" />
+      <a
+        class="social-link linkedin"
+        href="https://www.linkedin.com/in/jimmy-kasprzak/"
+        target="__blank"
+      >
+        <img
+          class="social-icon"
+          src="~/assets/LI-In-Bug.png"
+          alt="linkedin logo"
+        />
       </a>
     </section>
     <section class="copyright">

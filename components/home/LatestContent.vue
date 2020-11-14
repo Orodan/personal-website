@@ -18,15 +18,15 @@ export default {
   props: {
     articleSummary: {
       type: Object,
-      default: () => ({})
-    }
+      default: () => ({}),
+    },
   },
   methods: {
     goTo: function (slug) {
-      this.$router.push({ name: 'blog-slug', params: { slug } })
-    }
+      this.$router.push({ name: "blog-slug", params: { slug } });
+    },
   },
-}
+};
 </script>
 
 <style scoped>
@@ -63,15 +63,15 @@ img {
 
 .article-summary {
   display: flex;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 .article-summary:hover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .article-summary-content {

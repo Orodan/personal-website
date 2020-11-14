@@ -1,7 +1,7 @@
 <template>
   <section class="contact">
     <section class="left">
-      <img src="~/assets/me.jpg" alt="profile picture">
+      <img src="~/assets/me.jpg" alt="profile picture" />
     </section>
 
     <section class="right">
@@ -13,28 +13,47 @@
       </ul>
       <ul class="values">
         <li><span>jimmykasprzakpro@gmail.com</span></li>
-        <li><span><a target="__blank" href="https://twitter.com/JimmyKasprzak">@Jimmykasprzak</a></span></li>
-        <li><span><a target="__blank" href="https://www.linkedin.com/in/jimmy-kasprzak">Jimmy Kasprak</a></span></li>
-        <li><span><a target="__blank" href="https://github.com/Orodan">Orodan</a></span></li>
+        <li>
+          <span
+            ><a target="__blank" href="https://twitter.com/JimmyKasprzak"
+              >@Jimmykasprzak</a
+            ></span
+          >
+        </li>
+        <li>
+          <span
+            ><a
+              target="__blank"
+              href="https://www.linkedin.com/in/jimmy-kasprzak"
+              >Jimmy Kasprak</a
+            ></span
+          >
+        </li>
+        <li>
+          <span
+            ><a target="__blank" href="https://github.com/Orodan"
+              >Orodan</a
+            ></span
+          >
+        </li>
       </ul>
     </section>
-
   </section>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      title: 'Jimmy Kasprzak | contact',
-    }
+      title: "Jimmy Kasprzak | contact",
+    };
   },
-  head () {
+  head() {
     return {
       title: this.title,
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -86,7 +105,8 @@ li {
   text-align: left;
 }
 
-strong, span {
+strong,
+span {
   padding: 10px;
   font-size: 18px;
 }
@@ -115,7 +135,8 @@ a {
     padding: 40px 20px;
   }
 
-  strong, span {
+  strong,
+  span {
     font-size: 14px;
   }
 

@@ -2,12 +2,14 @@
   <section>
     <Intro class="white bg-yellow">
       Welcome to my blog !
-      <br/>
-      Here you can find all the articles I've written so far. I hope you learn something interesting :)
+      <br />
+      Here you can find all the articles I've written so far. I hope you learn
+      something interesting :)
     </Intro>
 
     <section class="articles">
-      <div v-for="articleSummary of articlesSummaries"
+      <div
+        v-for="articleSummary of articlesSummaries"
         :key="articleSummary.slug"
         class="card-article"
         @click="goTo(articleSummary.slug)"
@@ -25,32 +27,32 @@ import Intro from "~/components/common/Intro.vue";
 
 export default {
   components: {
-    Intro
+    Intro,
   },
-  async asyncData ({ $content }) {
-    const articlesSummaries = await $content('articles')
-      .only(['title', 'description', 'img', 'slug'])
-      .sortBy('createdAt', 'asc')
-      .fetch()
+  async asyncData({ $content }) {
+    const articlesSummaries = await $content("articles")
+      .only(["title", "description", "img", "slug"])
+      .sortBy("createdAt", "asc")
+      .fetch();
 
-    return { articlesSummaries }
+    return { articlesSummaries };
   },
   methods: {
     goTo: function (slug) {
-      this.$router.push({ name: 'blog-slug', params: { slug } })
-    }
+      this.$router.push({ name: "blog-slug", params: { slug } });
+    },
   },
-  data () {
+  data() {
     return {
-      title: 'Jimmy Kasprzak | blog',
-    }
+      title: "Jimmy Kasprzak | blog",
+    };
   },
-  head () {
+  head() {
     return {
       title: this.title,
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -66,16 +68,16 @@ export default {
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   margin: 20px;
   width: 320px;
   cursor: pointer;
-  transition: box-shadow .3s;
+  transition: box-shadow 0.3s;
 }
 
 .card-article:hover {
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,.8);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.8);
 }
 
 .card-article h3 {

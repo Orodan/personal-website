@@ -9,15 +9,15 @@ export default {
   components: {
     ProfessionalExperiences,
   },
-  data () {
+  data() {
     return {
-      title: 'Jimmy Kasprzak | work',
-    }
+      title: "Jimmy Kasprzak | work",
+    };
   },
-  head () {
+  head() {
     return {
       title: this.title,
-    }
-  }
+    };
+  },
 };
 </script>

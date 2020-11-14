@@ -14,14 +14,16 @@
 
 <script>
 export default {
-  async asyncData ({ $content, redirect, params }) {
-    const article = await $content('articles', params.slug).fetch().catch(err => {
-      redirect('/blog')
-    })
+  async asyncData({ $content, redirect, params }) {
+    const article = await $content("articles", params.slug)
+      .fetch()
+      .catch((err) => {
+        redirect("/blog");
+      });
 
-    return { article }
+    return { article };
   },
-}
+};
 </script>
 
 <style scoped>
@@ -42,7 +44,7 @@ article {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  transition: color .3s;
+  transition: color 0.3s;
 }
 
 .articles-link > i {

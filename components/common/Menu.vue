@@ -1,5 +1,5 @@
 <template>
-  <nav :class="{ 'sticky': scrolledDown }" ref="navbar">
+  <nav :class="{ sticky: scrolledDown }" ref="navbar">
     <nuxt-link to="/" class="bg-green">
       <i class="material-icons md-48">home</i>
       <p>Home</p>
@@ -36,17 +36,17 @@
 export default {
   data() {
     return {
-      scrolledDown: false
-    }
+      scrolledDown: false,
+    };
   },
   mounted() {
-    const navbarOffsetTop = this.$refs.navbar.offsetTop
+    const navbarOffsetTop = this.$refs.navbar.offsetTop;
 
     window.onscroll = () => {
-      this.scrolledDown = window.pageYOffset >= navbarOffsetTop
-    }
-  }
-}
+      this.scrolledDown = window.pageYOffset >= navbarOffsetTop;
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -66,7 +66,7 @@ nav > * {
 }
 
 nav > *:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 i {

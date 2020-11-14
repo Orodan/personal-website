@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Timeline from './Timeline'
+import Timeline from "./Timeline";
 
 export default {
   components: {
@@ -16,20 +16,20 @@ export default {
   data: () => {
     const experiences = [
       {
-        title: 'My Money Bank',
-        content: '11/2018 - Now | Full stack developer',
+        title: "My Money Bank",
+        content: "11/2018 - Now | Full stack developer",
       },
       {
-        title: 'Saint Gobain',
-        content: '01/2018 - 09/2018 | Full stack developer'
-      }
-    ]
+        title: "Saint Gobain",
+        content: "01/2018 - 09/2018 | Full stack developer",
+      },
+    ];
 
-  return {
-      experiences
-    }
-  }
-}
+    return {
+      experiences,
+    };
+  },
+};
 </script>
 
 <style scoped>

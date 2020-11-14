@@ -8,10 +8,10 @@
 export default {
   props: {
     title: {
-      type: String
-    }
-  }
-}
+      type: String,
+    },
+  },
+};
 </script>
 
 <style scoped>

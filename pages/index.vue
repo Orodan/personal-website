@@ -1,13 +1,16 @@
 <template>
   <section class="index-page">
     <Intro class="white bg-green">
-      Hi, I’m Jimmy. I’m an French software engineer living and working in Nantes, France.
-      <br/>
-      I'm also a trainer and I love sharing my passion for software development with people in many ways like writing blogs and speaking at meetups and conferences.
+      Hi, I’m Jimmy. I’m an French software engineer living and working in
+      Nantes, France.
+      <br />
+      I'm also a trainer and I love sharing my passion for software development
+      with people in many ways like writing blogs and speaking at meetups and
+      conferences.
     </Intro>
 
     <section class="row-2-1">
-      <LatestContent :articleSummary="latestArticleSummary"/>
+      <LatestContent :articleSummary="latestArticleSummary" />
       <PersonalInfo />
     </section>
 
@@ -31,26 +34,26 @@ export default {
     PersonalInfo,
     ProfessionalExperiencesSummary,
     SkillsSummary,
-    Intro
+    Intro,
   },
-  async asyncData ({ $content }) {
-    const articlesSummaries = await $content('articles')
-      .only(['title', 'description', 'img', 'slug'])
-      .sortBy('createdAt', 'asc')
-      .fetch()
+  async asyncData({ $content }) {
+    const articlesSummaries = await $content("articles")
+      .only(["title", "description", "img", "slug"])
+      .sortBy("createdAt", "asc")
+      .fetch();
 
-    return { latestArticleSummary: articlesSummaries[0] }
+    return { latestArticleSummary: articlesSummaries[0] };
   },
-  data () {
+  data() {
     return {
-      title: 'Jimmy Kasprzak | home',
-    }
+      title: "Jimmy Kasprzak | home",
+    };
   },
-  head () {
+  head() {
     return {
       title: this.title,
-    }
-  }
+    };
+  },
 };
 </script>
 

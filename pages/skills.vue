@@ -1,10 +1,13 @@
 <template>
   <section>
     <Intro class="bg-white">
-      In this page, you can find skills (both tech and soft) I like to use at the moment.
+      In this page, you can find skills (both tech and soft) I like to use at
+      the moment.
       <br />
-      This is non-exhaustive, completly subjective, but it allows you to know very quickly what my tech interests and competences are at the moment. If you want more details on my experience
-      on the listed skills, check out my work page :).
+      This is non-exhaustive, completly subjective, but it allows you to know
+      very quickly what my tech interests and competences are at the moment. If
+      you want more details on my experience on the listed skills, check out my
+      work page :).
     </Intro>
 
     <section class="diamonds-container">
@@ -13,7 +16,10 @@
           <h3>Proficient</h3>
 
           <p>
-          On this section you can find skills I'm proficient at. It basically means I can hold my own when working with these technologies. I can manage and lead projects made with them and teach about it to others (I actually do teach about them already).
+            On this section you can find skills I'm proficient at. It basically
+            means I can hold my own when working with these technologies. I can
+            manage and lead projects made with them and teach about it to others
+            (I actually do teach about them already).
           </p>
         </div>
 
@@ -41,29 +47,49 @@
           <h3>Good</h3>
 
           <p>
-            You'll find on this section technologies I'm used to work with. I'm no expert but I still considered myself good enough on those to be productive when developing with them.
+            You'll find on this section technologies I'm used to work with. I'm
+            no expert but I still considered myself good enough on those to be
+            productive when developing with them.
           </p>
         </div>
       </section>
 
       <section class="soft-skills-intro">
-        Because work is not only about tech skills, below you can also find soft skills I value a lot.
+        Because work is not only about tech skills, below you can also find soft
+        skills I value a lot.
       </section>
 
       <section class="soft-skills">
         <div class="soft-skill">
           <strong class="orange">Communication</strong>
-          <p>No matter the company, the technologie or the people you're working with, communication is for me an essential skill in every project. A project never gets done alone. Being skilled technicaly is good, but being able to communicate and explain what you did to the people around you is even better !</p>
+          <p>
+            No matter the company, the technologie or the people you're working
+            with, communication is for me an essential skill in every project. A
+            project never gets done alone. Being skilled technicaly is good, but
+            being able to communicate and explain what you did to the people
+            around you is even better !
+          </p>
         </div>
 
         <div class="soft-skill">
           <strong class="green">Empathy</strong>
-          <p>Empathy is usefull in some many ways when working, even as a developer. It allows you to properly comprehend what the user wants. It allows you to explain what's wrong in a code review without hurting your colleague. It allows you to comunicate properly to non-tech people. Etc ... Empathy is essential :)</p>
+          <p>
+            Empathy is usefull in some many ways when working, even as a
+            developer. It allows you to properly comprehend what the user wants.
+            It allows you to explain what's wrong in a code review without
+            hurting your colleague. It allows you to comunicate properly to
+            non-tech people. Etc ... Empathy is essential :)
+          </p>
         </div>
 
         <div class="soft-skill">
           <strong class="blue">Benevolence</strong>
-          <p>Always consider that everyone is doing his best in their work. You will always encounter problems when working, but almost nobody come working with the intention to mess up something. Consider other people with benevolence and they will do the same with you.</p>
+          <p>
+            Always consider that everyone is doing his best in their work. You
+            will always encounter problems when working, but almost nobody come
+            working with the intention to mess up something. Consider other
+            people with benevolence and they will do the same with you.
+          </p>
         </div>
       </section>
     </section>
@@ -77,19 +103,19 @@ import Intro from "~/components/common/Intro.vue";
 export default {
   components: {
     SkillCard,
-    Intro
+    Intro,
   },
   data: () => {
     return {
-      title: 'Jimmy Kasprzak | skills'
-    }
+      title: "Jimmy Kasprzak | skills",
+    };
   },
-  head () {
+  head() {
     return {
-      title: this.title
-    }
-  }
-}
+      title: this.title,
+    };
+  },
+};
 </script>
 
 <style scoped>

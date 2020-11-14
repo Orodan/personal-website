@@ -46,7 +46,7 @@
   border-radius: 3px;
   border: thin solid #eee;
   display: inline-block;
-  transition: .3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 

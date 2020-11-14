@@ -16,7 +16,7 @@ export default {
   components: {
     Header,
     Footer,
-  }
+  },
 };
 </script>
 
@@ -31,7 +31,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  color: #2E495E;
+  color: #2e495e;
 }
 
 body {
@@ -57,8 +57,8 @@ body {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #00C48D;
-  color: #00C48D;
+  border: 1px solid #00c48d;
+  color: #00c48d;
   text-decoration: none;
   padding: 10px 30px;
   display: inline-flex;
@@ -67,14 +67,14 @@ body {
 
 .button--green:hover {
   color: #fff;
-  background-color: #00C48D;
+  background-color: #00c48d;
 }
 
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #2E495E;
-  color: #2E495E;
+  border: 1px solid #2e495e;
+  color: #2e495e;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -82,6 +82,6 @@ body {
 
 .button--grey:hover {
   color: #fff;
-  background-color: #2E495E;
+  background-color: #2e495e;
 }
 </style>

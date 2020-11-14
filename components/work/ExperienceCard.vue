@@ -3,7 +3,7 @@
     <strong>{{ company }}</strong>
     <p>{{ period }} | {{ role }}</p>
 
-    <p class="description">{{ description }}</p>
+    <p class="description">{{ description }}</p>
 
     <div class="skills">
       <div v-for="skill in skills" :key="skill" class="skill">{{ skill }}</div>
@@ -62,7 +62,7 @@ export default {
     },
     skills: {
       type: Array,
-    }
-  }
-}
+    },
+  },
+};
 </script>
