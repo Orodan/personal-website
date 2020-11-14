@@ -11,7 +11,5 @@
       "StartCommand": "npm run-script serve"
     }
   },
-  "providers": [
-    "awscloudformation"
-  ]
+  "providers": ["awscloudformation"]
 }

@@ -46,9 +46,7 @@ export default {
    ** Nuxt.js modules
    ** Doc: https://nuxtjs.org/guide/modules
    */
-  modules: [
-    "@nuxt/content",
-  ],
+  modules: ["@nuxt/content"],
 
   /*
    ** HTTP module configuration
