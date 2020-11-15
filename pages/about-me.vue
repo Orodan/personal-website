@@ -54,23 +54,18 @@
 </template>
 
 <script>
-import Intro from '~/components/common/Intro.vue'
-
 export default {
-  components: {
-    Intro,
-  },
   data() {
     return {
-      title: 'Mohammad Ishfaque Jahan Rafee | about me',
-    }
+      title: "Mohammad Ishfaque Jahan Rafee | about me",
+    };
   },
   head() {
     return {
       title: this.title,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>

@@ -97,25 +97,18 @@
 </template>
 
 <script>
-import SkillCard from '~/components/skills/SkillCard.vue'
-import Intro from '~/components/common/Intro.vue'
-
 export default {
-  components: {
-    SkillCard,
-    Intro,
-  },
   data: () => {
     return {
-      title: 'Mohammad Ishfaque Jahan Rafee | skills',
-    }
+      title: "Mohammad Ishfaque Jahan Rafee | skills",
+    };
   },
   head() {
     return {
       title: this.title,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>

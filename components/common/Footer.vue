@@ -21,12 +21,19 @@
         />
       </a>
     </section>
-    <section class="copyright">
-      © 2020 Mohammad Ishfaque Jahan Rafee - Made with love by Mohammad Ishfaque
-      Jahan Rafee.
-    </section>
+    <section class="copyright">© 2020 {{ name }}</section>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      name: "Mohammad Ishfaque Jahan Rafee",
+    };
+  },
+};
+</script>
 
 <style scoped>
 .social-link {

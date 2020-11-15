@@ -2,32 +2,56 @@
   <section class="professional-experiences-summary">
     <h2>Professional experiences</h2>
 
-    <Timeline title="titre" :experiences="experiences" />
+    <Timeline title="title" :experiences="experiences" />
   </section>
 </template>
 
 <script>
 import Timeline from "./Timeline";
+// import Experiences from "../common/Experiences";
 
 export default {
   components: {
     Timeline,
   },
   data: () => {
-    const experiences = [
+    const exps = [
       {
-        title: "Concordia University, Montreal, QC",
-        content: "09/2018 - 10/2020 | Graduate Research Assistant",
+        company: "Concordia University",
+        location: "Montreal, QC",
+        role: "Graduate Research Assistant",
+        // Date recorded in YYYY, MM format
+        startDate: new Date(2018, 9),
+        endDate: new Date(2020, 10),
       },
       {
-        title: "ZTE Corporation (Bangladesh) Limited",
-        content: "11/2017 - 08/2018 | Technical Account Manager",
+        company: "ZTE Corporation (Bangladesh) Limited",
+        location: "Dhaka",
+        role: "Technical Account Manager",
+        startDate: new Date(2017, 11),
+        endDate: new Date(2018, 8),
       },
       {
-        title: "Huawei Technologies (Bangladesh) Limited",
-        content: "09/2014 - 11/2017 | Solutions Engineer",
+        company: "Huawei Technologies (Bangladesh) Limited",
+        location: "Dhaka",
+        role: "Solutions Engineer",
+        startDate: new Date(2014, 9),
+        endDate: new Date(2017, 11),
       },
     ];
+
+    var experiences = [];
+
+    // Generate string template from variable data
+    for (let index = 0; index < exps.length; index++) {
+      const title = `${exps[index].company}, ${exps[index].location}`;
+      const content = `${exps[index].startDate.getMonth()}/${exps[
+        index
+      ].startDate.getFullYear()} - ${exps[index].endDate.getMonth()}/${exps[
+        index
+      ].endDate.getFullYear()} | ${exps[index].role}`;
+      experiences.push({ title: title, content: content });
+    }
 
     return {
       experiences,

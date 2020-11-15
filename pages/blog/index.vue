@@ -23,12 +23,7 @@
 </template>
 
 <script>
-import Intro from "~/components/common/Intro.vue";
-
 export default {
-  components: {
-    Intro,
-  },
   async asyncData({ $content }) {
     const articlesSummaries = await $content("articles")
       .only(["title", "description", "img", "slug"])
@@ -38,13 +33,13 @@ export default {
     return { articlesSummaries };
   },
   methods: {
-    goTo: function (slug) {
+    goTo: function(slug) {
       this.$router.push({ name: "blog-slug", params: { slug } });
     },
   },
   data() {
     return {
-      title: "Jimmy Kasprzak | blog",
+      title: "Mohammad Ishfaque Jahan Rafee | blog",
     };
   },
   head() {

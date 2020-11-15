@@ -3,14 +3,38 @@
     <h2 class="yellow">Personal Info</h2>
 
     <ul>
-      <li><strong>Name:</strong> <span>Mohammad Ishfaque Jahan Rafee</span></li>
-      <li><strong>Email:</strong> <span>mij.rafee.1344@gmail.com</span></li>
-      <li><strong>City:</strong> <span>Edmonton</span></li>
-      <li><strong>Province:</strong> <span>Alberta</span></li>
-      <li><strong>Country:</strong> <span>Canada</span></li>
+      <li>
+        <strong>Name:</strong> <span>{{ name }}</span>
+      </li>
+      <li>
+        <strong>Email:</strong> <span>{{ email }}</span>
+      </li>
+      <li>
+        <strong>City:</strong> <span>{{ city }}</span>
+      </li>
+      <li>
+        <strong>Province:</strong> <span>{{ province }}</span>
+      </li>
+      <li>
+        <strong>Country:</strong> <span>{{ country }}</span>
+      </li>
     </ul>
   </section>
 </template>
+
+<script>
+export default {
+  data: () => {
+    return {
+      name: "Mohammad Ishfaque Jahan Rafee",
+      email: "mij.rafee.1344@gmail.com",
+      city: "Edmonton",
+      province: "Alberta",
+      country: "Canada",
+    };
+  },
+};
+</script>
 
 <style scoped>
 .personal-info {
