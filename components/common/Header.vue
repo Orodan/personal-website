@@ -11,12 +11,7 @@
 </template>
 
 <script>
-// import Menu from "~/components/common/Menu.vue";
-
 export default {
-  // components: {
-  //   Menu,
-  // },
   data() {
     return {
       name: "Mohammad Ishfaque Jahan Rafee",
