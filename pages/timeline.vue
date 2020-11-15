@@ -6,7 +6,7 @@
 export default {
   data() {
     return {
-      title: "Mohammad Ishfaque Jahan Rafee | work",
+      title: "Mohammad Ishfaque Jahan Rafee | timeline",
     };
   },
   head() {

@@ -4,43 +4,60 @@
 
     <section class="story">
       <div class="story-picture">
-        <img src="~/assets/la-rochelle.jpg" alt="la rochelle picture" />
+        <img src="~/assets/BUET.jpg" alt="la rochelle picture" />
       </div>
 
       <div class="story-content blue">
-        My story started in the beautiful city of La Rochelle. I joined the
-        computer science university where I studied for five years to get my
-        master degree. In the last two years, I had the chance to be an
-        apprentice in the information system management of my university.
+        My story started in Bangladesh, a small country in South Asia with
+        massive potential. From my childhood, I was fascinated by science and
+        math. This fascination brought me to study engineering in the best
+        engineering institution in Bangladesh, BUET.
       </div>
     </section>
 
     <section class="story">
       <div class="story-content bg-blue white">
-        After getting my master degree, I decided to leave La Rochelle and try
-        my luck in Paris where I chose to join Zenika. I stayed for 2 years
-        where I got to work for EDF, AFP and Saint-Gobain, meeting amazing
-        people and developping my skills in web development, mostly on
-        Javascript, Angular and Spring. I also became a trainer and gave
-        formations on web topics.
+        After graduation, I first worked as a pre-sales engineer. In that
+        position, I had to communicate with all levels of customers. Some of my
+        customers had years of technical experience. They were concerned with
+        the minute technical details of the solutions. At the same time, CXO
+        level customers were more concerned with the business impact. These
+        experiences let me develop my technical and non-technical abilities
+        simultaneously.
       </div>
 
       <div class="story-picture violet">
-        <img src="~/assets/paris.jpeg" alt="paris picture" />
+        <img src="~/assets/Huawei.png" alt="paris picture" />
       </div>
     </section>
 
     <section class="story">
       <div class="story-picture">
-        <img src="~/assets/nantes.jpg" alt="nantes picture" />
+        <img src="~/assets/ZTE.jpg" alt="nantes picture" />
       </div>
 
       <div class="story-content blue">
-        Finally, I moved from Paris to Nantes. Luckily Zenika already had an
-        agency where I could continue my journey in. Since I got here, I've been
-        working as a web developer for MMB where I learned React, graphql and so
-        much more thanks to the people around me. And my journey keeps going
-        until today in this beautiful city ...
+        Following that, I switched over to a more sales-oriented role. There, I
+        got the opportunity to work on a large project (near USD 200M). This
+        project had lots of moving parts, which required constant monitoring.
+        Due to the size of the project, my impact was nominal. However, it was a
+        humbling experience.
+      </div>
+    </section>
+
+    <section class="story">
+      <div class="story-content bg-blue white">
+        Now I am studying for MEng at the Information Systems Security at
+        Concordia University. While this may seem unconventional (following my
+        experience), it's a continuation of my enthusiasm for Cloud Computing
+        and Networks. In addition to academics, I have experience with AWS
+        (Amazon Web services) and GCP (Google Cloud Platform). I am an AWS
+        Certified Cloud Solution Architect - Associate and Google Cloud
+        Certified Associate Cloud Engineer.
+      </div>
+
+      <div class="story-picture">
+        <img src="~/assets/Concordia.jpg" alt="nantes picture" />
       </div>
     </section>
   </section>

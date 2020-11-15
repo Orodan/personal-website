@@ -10,9 +10,9 @@
       <p>About me</p>
     </nuxt-link>
 
-    <nuxt-link to="/work" class="bg-purple">
-      <i class="material-icons md-48">work</i>
-      <p>Work</p>
+    <nuxt-link to="/timeline" class="bg-purple">
+      <i class="material-icons md-48">timeline</i>
+      <p>Timeline</p>
     </nuxt-link>
 
     <nuxt-link to="/skills" class="bg-orange">
@@ -37,16 +37,16 @@ export default {
   data() {
     return {
       scrolledDown: false,
-    }
+    };
   },
   mounted() {
-    const navbarOffsetTop = this.$refs.navbar.offsetTop
+    const navbarOffsetTop = this.$refs.navbar.offsetTop;
 
     window.onscroll = () => {
-      this.scrolledDown = window.pageYOffset >= navbarOffsetTop
-    }
+      this.scrolledDown = window.pageYOffset >= navbarOffsetTop;
+    };
   },
-}
+};
 </script>
 
 <style scoped>
