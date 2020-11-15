@@ -1,13 +1,6 @@
 <template>
   <section class="index-page">
-    <Intro class="white bg-green">
-      Hi, I’m Jimmy. I’m an French software engineer living and working in
-      Nantes, France.
-      <br />
-      I'm also a trainer and I love sharing my passion for software development
-      with people in many ways like writing blogs and speaking at meetups and
-      conferences.
-    </Intro>
+    <Summary :class="'white bg-green'" />
 
     <section class="row-2-1">
       <LatestContent :articleSummary="latestArticleSummary" />

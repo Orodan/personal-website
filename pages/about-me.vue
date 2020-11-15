@@ -1,13 +1,6 @@
 <template>
   <section>
-    <Intro class="white bg-blue">
-      Hi, I’m Jimmy. I’m an French software engineer living and working in
-      Nantes, France.
-      <br />
-      I'm also a trainer and I love sharing my passion for software development
-      with people in many ways like writing blogs and speaking at meetups and
-      conferences.
-    </Intro>
+    <Summary :class="'white bg-blue'" />
 
     <section class="story">
       <div class="story-picture">
@@ -56,8 +49,11 @@
 <script>
 export default {
   data() {
+    var name = "Mohammad Ishfaque Jahan Rafee";
+    var nickname = "Rafee";
     return {
-      title: "Mohammad Ishfaque Jahan Rafee | about me",
+      nickname,
+      title: name + " | about me",
     };
   },
   head() {
