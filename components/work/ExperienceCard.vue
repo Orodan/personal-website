@@ -1,9 +1,18 @@
 <template>
   <div class="experience-card">
     <strong>{{ company }}</strong>
-    <p>{{ period }} | {{ role }}</p>
+    <p>
+      {{
+        `${startTime.getMonth()}/${startTime.getFullYear()} - ${endTime.getMonth()}/${endTime.getFullYear()}`
+      }}
+      | {{ role }}
+    </p>
 
-    <p class="description">{{ description }}</p>
+    <ul id="description">
+      <li v-for="item in description" :key="item">
+        {{ item }}
+      </li>
+    </ul>
 
     <div class="skills">
       <div v-for="skill in skills" :key="skill" class="skill">{{ skill }}</div>
@@ -52,8 +61,12 @@ export default {
       type: String,
       required: true,
     },
-    period: {
-      type: String,
+    startTime: {
+      type: Date,
+      required: true,
+    },
+    endTime: {
+      type: Date,
       required: true,
     },
     role: {
@@ -61,7 +74,7 @@ export default {
       required: true,
     },
     description: {
-      type: String,
+      type: Array,
       required: true,
     },
     skills: {
@@ -69,5 +82,5 @@ export default {
       required: true,
     },
   },
-}
+};
 </script>

@@ -15,9 +15,9 @@
       <p>Timeline</p>
     </nuxt-link>
 
-    <nuxt-link to="/skills" class="bg-orange">
+    <nuxt-link to="/projects" class="bg-orange">
       <i class="material-icons md-48">star</i>
-      <p>Skills</p>
+      <p>Projects</p>
     </nuxt-link>
 
     <nuxt-link to="/contact" class="bg-red">

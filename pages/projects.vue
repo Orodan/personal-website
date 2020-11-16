@@ -99,8 +99,10 @@
 <script>
 export default {
   data: () => {
+    var name = "Mohammad Ishfaque Jahan Rafee";
+    var pageName = "Projects";
     return {
-      title: "Mohammad Ishfaque Jahan Rafee | skills",
+      title: name + " | " + pageName,
     };
   },
   head() {

@@ -1,8 +1,8 @@
 {
-  "name": "jimmy-kasprzak-personal-website",
+  "name": "rafee-personal-website",
   "version": "1.0.0",
-  "description": "The personal website of Jimmy Kasprzak. Find experiences, skills and content.",
-  "author": "Jimmy Kasprzak",
+  "description": "Personal website of Rafee. Find experiences, skills and content.",
+  "author": "Mohammad Ishfaque Jahan Rafee",
   "private": true,
   "scripts": {
     "dev": "nuxt",

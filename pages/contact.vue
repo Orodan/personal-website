@@ -38,16 +38,18 @@
 <script>
 export default {
   data() {
+    var name = "Mohammad Ishfaque Jahan Rafee";
+    var pageName = "Contact";
     return {
-      title: 'Mohammad Ishfaque Jahan Rafee | contact',
-    }
+      title: name + " | " + pageName,
+    };
   },
   head() {
     return {
       title: this.title,
-    }
+    };
   },
-}
+};
 </script>
 
 <style scoped>

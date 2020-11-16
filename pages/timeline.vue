@@ -5,8 +5,10 @@
 <script>
 export default {
   data() {
+    var name = "Mohammad Ishfaque Jahan Rafee";
+    var pageName = "Timeline";
     return {
-      title: "Mohammad Ishfaque Jahan Rafee | timeline",
+      title: name + " | " + pageName,
     };
   },
   head() {

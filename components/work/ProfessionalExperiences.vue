@@ -7,7 +7,8 @@
     >
       <ExperienceCard
         :company="experience.company"
-        :period="experience.period"
+        :startTime="experience.startTime"
+        :endTime="experience.endTime"
         :role="experience.role"
         :description="experience.description"
         :skills="experience.skills"
@@ -28,7 +29,7 @@
 
 .experiences:before,
 .experiences:after {
-  content: '';
+  content: "";
   border-radius: 50%;
   background-color: var(--white);
   width: 25px;
@@ -48,7 +49,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  content: '';
+  content: "";
 }
 
 .experience:before {
@@ -111,7 +112,7 @@
   .experience:after {
     position: absolute;
     left: 50px;
-    content: '';
+    content: "";
   }
 
   .experience:after {
@@ -149,74 +150,57 @@
 </style>
 
 <script>
-import ExperienceCard from '~/components/work/ExperienceCard.vue'
-
 export default {
-  components: {
-    ExperienceCard,
-  },
   data: () => {
     const experiences = [
       {
-        company: 'My Money Bank',
-        period: '11/2018 - Now',
-        role: 'Full stack developer',
-        description:
-          'Development of an application to create and manage credits. We acquire, verify and save clients data like the financial situation, official documents, requirement and so on. We also calculate indicators from this data to help decision making. Front end was made with React. The back-end are micro-services developed in Java with Spring boot, and to connect both part we have a graphql server developed in Node.js and Typescript.',
+        company: "Concordia University",
+        startTime: new Date(2018, 9),
+        endTime: new Date(2020, 10),
+        // period: "11/2018 - Now",
+        role: "Graduate Research Assistant",
+        description: [
+          "Developed a video streaming server, which uses native UDP multicast to stream to multiple clients simultaneously over HTTP. The deployment used an experimental variation of QUIC, QUIC multicast, as foundation for HTTP multicast.",
+          "Designed experiment to test Go network library for Information Centric Networking. Determined the metrics necessary for testing and comparing the library against other similar libraries written in other programming languages, such as Java, C++ etc.",
+        ],
+        skills: ["TCP/IP", "Go", "C++", "HTTP", "REST"],
+      },
+      {
+        company: "ZTE Corporation (Bangladesh) Limited",
+        startTime: new Date(2017, 11),
+        endTime: new Date(2018, 8),
+        // period: "11/2018 - Now",
+        role: "Technical Account Manager",
+        description: [
+          "Worked as a technical interface to Key Decision Makers of Bangladesh Government in first Tier-4 Data Center Project in Bangladesh.",
+          "Signed deal worth 8M with one of the largest ISP in Bangladesh for GPON and Cloud Infrastructure.",
+        ],
+        skills: ["Sales", "Customer Support"],
+      },
+      {
+        company: "Huawei Technologies (Bangladesh) Limited",
+        startTime: new Date(2014, 9),
+        endTime: new Date(2017, 11),
+        // period: "11/2018 - Now",
+        role: "Solutions Engineer",
+        description: [
+          "Designed solution for first hosted cloud data center project in Bangladesh. The project launched as a new business line for the customer.",
+          "Reduced 5 EMC storage boxes to single high-end Huawei storage decreasing the physical footprint by 80% and power consumption by 50%, resulting in 60% reduction in estimated TCO over five years.",
+          "Consolidated forty-two physical rack servers to the first virtualization platform in Teletalk. The consolidation resulted in a close to 90% reduction in physical footprint and 70% power consumption.",
+        ],
         skills: [
-          'React',
-          'Node.js',
-          'Typescrip',
-          'Graphql',
-          'Java',
-          'Spring boot',
+          "Cloud Computing",
+          "Server",
+          "Storage",
+          "Virtualization",
+          "Sales",
         ],
       },
-      {
-        company: 'Saint-Gobain',
-        period: '03/2018 - 10/2018',
-        role: 'Full stack developer',
-        description:
-          'Development of an application to handle business logic of a materials manager : purchase, sale, inventory management, etc. The front-end was a big Angular (v5) application divided with a DDD approach into modules. The back-end was a list of REST apis in micro-services made with Java and Spring boot.',
-        skills: ['Angular', 'Typescript', 'Java', 'Spring boot'],
-      },
-      {
-        company: 'AFP',
-        period: '11/2016 - 02/2018',
-        role: 'Full stack developer',
-        description:
-          'Development of an application allowing both journalists and people to send videos, photos and text. These elements can be sent associated with metadata. They are uploaded, verified and then indexed to be accessible in the AFP information system. Typescript and Angular (v4) was used for the front-end, Java and Spring boot for the back-end.',
-        skills: ['Angular', 'Typescript', 'Java', 'Spring boot'],
-      },
-      {
-        company: 'EDF R&D',
-        period: '10/2016 - 11/2016',
-        role: 'Angular.js developer',
-        description:
-          'Development of a data visualizer using Angular.js. The objective was to be able to observe, compare and analyze data from EDF nuclear power plant sites. The application displayed data in several graphic forms and allow users to apply filters to narrow data to a specific set and compare it to another one. Made with Angular.js (1.5) Chart.s and Bootstrap (v3)',
-        skills: ['Angular.js', 'Chart.js', 'Bootstrap'],
-      },
-      {
-        company: 'University of La Rochelle - IT System Department',
-        period: '9/2014 - 9/2016',
-        role: 'Full stack developer - apprentice',
-        description:
-          'Development of a open-source collaborative web platform called OAE (Open Academic Environment). This platform allowed users to create, give access and manage content like docs, excels, classes, similarly to google drive, but to universities and colleges. It also allow users to have the platform on their own servers and manage where are kept their datas by themselves. For example I integrated a Jitsi module to allow users to have visio call in real time. Realized with node.js and Javascript.',
-        skills: ['Javascript', 'Node.js'],
-      },
-      {
-        company: 'Irium France',
-        period: '5/2014 - 8/2014',
-        role: 'Php developer - trainee',
-        description:
-          'Development of SOAP webservices to enrich functionalities of an ERP, for customers managing agricultural equipment fleets. Made with CakePHP and Foundation as the css framework.',
-        skills: ['Php', 'CakePHP', 'Foundation'],
-      },
-    ]
+    ];
 
     return {
       experiences,
-    }
+    };
   },
-}
+};
 </script>

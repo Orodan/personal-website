@@ -25,8 +25,10 @@ export default {
     return { latestArticleSummary: articlesSummaries[0] };
   },
   data() {
+    var name = "Mohammad Ishfaque Jahan Rafee";
+    var pageName = "Home";
     return {
-      title: "Mohammad Ishfaque Jahan Rafee | home",
+      title: name + " | " + pageName,
     };
   },
   head() {
