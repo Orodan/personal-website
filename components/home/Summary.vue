@@ -7,9 +7,9 @@
       work, such as this.
       <br />
       <br />
-      Right now I am pursuing Masters in Information Systems Security Concordia
-      University, Montreal. While that might be little surprising given my
-      location, in this remote world nothing is impossible!
+      Right now I am pursuing Masters in Information Systems Security at
+      Concordia University, Montreal. While that might be little surprising
+      given my location, in this remote world nothing is impossible!
     </Intro>
   </section>
 </template>

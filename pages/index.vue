@@ -2,10 +2,10 @@
   <section class="index-page">
     <Summary :class="'white bg-green'" />
 
-    <section class="row-2-1">
+    <!-- <section class="row-2-1">
       <LatestContent :articleSummary="latestArticleSummary" />
       <PersonalInfo />
-    </section>
+    </section> -->
 
     <section class="row-1-2">
       <ProfessionalExperiencesSummary />

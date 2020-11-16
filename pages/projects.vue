@@ -1,6 +1,6 @@
 <template>
   <section>
-    <Intro class="bg-white">
+    <!-- <Intro class="bg-white">
       In this page, you can find skills (both tech and soft) I like to use at
       the moment.
       <br />
@@ -92,7 +92,7 @@
           </p>
         </div>
       </section>
-    </section>
+    </section> -->
   </section>
 </template>
 
