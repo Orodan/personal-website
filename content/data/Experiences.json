@@ -1,0 +1,23 @@
+{ 
+      "Concordia":{
+        "company": "Concordia University",
+        "location": "Montreal, QC",
+        "role": "Graduate Research Assistant",
+        "startDate": "2018-09",
+        "endDate": "2020-10"
+      },
+      "ZTE":{
+        "company": "ZTE Corporation (Bangladesh) Limited",
+        "location": "Dhaka",
+        "role": "Technical Account Manager",
+        "startDate": "2017-11",
+        "endDate": "2018-08"
+      },
+      "Huawei":{
+        "company": "Huawei Technologies (Bangladesh) Limited",
+        "location": "Dhaka",
+        "role": "Solutions Engineer",
+        "startDate": "2014-09",
+        "endDate": "2017-11"
+      }
+ }
