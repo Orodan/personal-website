@@ -1,9 +1,9 @@
 <template>
   <section>
     <section class="go-back">
-      <nuxt-link to="/blog" class="articles-link">
+      <nuxt-link to="/projects" class="articles-link">
         <i class="material-icons">keyboard_backspace</i> Return to other
-        Articles
+        Projects
       </nuxt-link>
     </section>
 
@@ -16,10 +16,10 @@
 <script>
 export default {
   async asyncData({ $content, redirect, params }) {
-    const article = await $content("articles", params.slug)
+    const article = await $content("data", params.slug)
       .fetch()
       .catch((err) => {
-        redirect("/blog");
+        redirect("/projects");
       });
 
     return { article };
