@@ -67,7 +67,8 @@ export default {
     extend(config, ctx) {},
   },
 
-  // generate: {
-  //   routes: ['/blog/creating-personal-website-with-nuxt']
-  // }
+  generate: {
+    fallback:true
+    // routes: ['/blog/creating-personal-website-with-nuxt']
+  }
 };
