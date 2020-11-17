@@ -7,14 +7,14 @@ export default {
    ** Doc: https://vue-meta.nuxtjs.org/api/#metainfo-properties
    */
   head: {
-    title: "Jimmy Kasprzak",
+    title: "Mohammad Ishfaque Jahan Rafee",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Official personal website of Jimmy Kasprzak",
+        content: "Personal website of Mohammad Ishfaque Jahan Rafee",
       },
     ],
     link: [
