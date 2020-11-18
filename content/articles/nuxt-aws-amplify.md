@@ -20,3 +20,16 @@ Now in terms of deploying the application, I ruled out something like NGINX soon
 AWS Amplify is a practical solution to all aforementioned problems. Not only Amplify allows static site hosting via S3+CloudFront, it allows automatic instant cache invalidation. Add it to the fact that, amplify allows you to add API (both REST and GraphQL), connect to DB and automatic domain management out of the box. It seem like a one stop IT solution, rather than a individual product.
 
 With all aforementioned things in place, NUXT + Amplify seemed like a perfect technology to meet my requirement.
+
+## Prior Works
+
+While I wish I was smart enough to build the entire application from exact scratch, that's not the case. My front-end skills are too rudimentary to develop the whole application in feasible amount of time. That's why I started looking into internet for prior works. I found [this excellent website](https://jimmykasprzak.com/) by Jimmy Kasprzak with [source code](https://github.com/Orodan/personal-website) available in Github. He also included a [great tutorial](https://jimmykasprzak.com/blog/creating-personal-website-with-nuxt/) for anyone to follow.
+
+TLDR, I copied all his styling to develop my website (Something I plan to change in near future). If someone wants instruction on how to develop with NUXT, his website will be more fruitful place.
+
+What I did new though is, application deployment. My initial idea was to deploy on S3+CloudFront. However, I recently discovered AWS Amplify and wanted to use it, as it felt like a superior product. Also, I intend to extend this application in other ways (Authentication, GraphQL etc). AWS Amplify felt like a one stop shop for such endeavor.
+
+## Deploying application on Amplify
+
+Assuming you have developed your application using NUXT (By yourself or by following [Jimmy's tutorial](https://jimmykasprzak.com/blog/creating-personal-website-with-nuxt/)), now is the time for deploying your application using Amplify.
+
