@@ -14,7 +14,7 @@
       </a>
     </section>
     <section class="copyright">
-      © 2020 Jimmy Kasprzak - Made with love by Jimmy kasprzak.
+      © 2021 Jimmy Kasprzak - Made with love by Jimmy kasprzak.
     </section>
   </footer>
 </template>
