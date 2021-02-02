@@ -152,11 +152,20 @@ export default {
     const experiences = [
       {
         company: 'My Money Bank',
-        period: '11/2018 - Now',
+        period: '01/2020 - 01/2021',
+        role: 'JS lead developer',
+        description: 'Leading a team of 2 developers (+ me) on the JS part of an application handling the creation and management of credits in a bank. JS part meaning React + node.js server. Introducing best practices, handling technical debt, developing people technical and soft skills.',
+        skills: [
+          'React', 'Node.js', 'Typescript', 'Graphql', 'Sentry', 'Cypress', 'Codecept', 'Java', 'Spring boot',
+        ]
+      },
+      {
+        company: 'My Money Bank',
+        period: '11/2018 - 12/2019',
         role: 'Full stack developer',
         description: 'Development of an application to create and manage credits. We acquire, verify and save clients data like the financial situation, official documents, requirement and so on. We also calculate indicators from this data to help decision making. Front end was made with React. The back-end are micro-services developed in Java with Spring boot, and to connect both part we have a graphql server developed in Node.js and Typescript.',
         skills: [
-          'React', 'Node.js', 'Typescrip', 'Graphql', 'Java', 'Spring boot'
+          'React', 'Node.js', 'Typescript', 'Graphql', 'Cypress', 'Codecept', 'Java', 'Spring boot'
         ]
       },
       {
