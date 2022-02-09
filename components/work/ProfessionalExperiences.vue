@@ -151,8 +151,26 @@ export default {
   data: () => {
     const experiences = [
       {
+        company: 'RCA',
+        period: '09/2021 - now',
+        role: 'Full stack lead developer',
+        description: 'Leading a team working on "MEG", an application for accountants and their clients allowing them to help them manage their accounts. Developing new functionalities, helping people grow on my team, managing developement practices, handling technical debt like removing Angular.js bit by bit for example 😅',
+        skills: [
+          'Angular.js', 'Angular', 'Javascript', 'Typescript', 'Css', 'Java', 'Spring boot', 'Kafka', 'Postgresql'
+        ]
+      },
+      {
+        company: 'Digitemis',
+        period: '03/2021 - 08/2021',
+        role: 'JS lead developer',
+        description: 'Worked on "Make It Safe", a security repository platform allowing the analysis, entry and sharing of audits on various security subjects. I helped introduced developement best practices, reworked the git process, handled technical debt on the Vue.js and CSS code and developed new functionalities while helping people on the team grow their skills.',
+        skills: [
+          'Vue.js', 'Git', 'Javascript', 'Css'
+        ]
+      },
+      {
         company: 'My Money Bank',
-        period: '01/2020 - 01/2021',
+        period: '01/2020 - 02/2021',
         role: 'JS lead developer',
         description: 'Leading a team of 2 developers (+ me) on the JS part of an application handling the creation and management of credits in a bank. JS part meaning React + node.js server. Introducing best practices, handling technical debt, developing people technical and soft skills.',
         skills: [
